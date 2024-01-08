@@ -1,0 +1,132 @@
+{
+      "Home":[
+                {
+                   "Heading":"Welcome",
+
+                   "Subheading": "I am Tauha Hoosain Shaik, an aspiring Full Stack Developer",
+
+                   "Projbutton":"My Projects",
+
+                   "Contactbutton":"Contact Me"
+                }
+            ],
+
+        "About":[
+            {
+                "Heading": "About",
+
+                "Subheading":"Who Am I?",
+
+                "Descriptions":"I am a hardworking individual that strives for constant improvement through diligence and the drive to learn. Patience and perseverence is a large part of my work ethic as well as the ability to self reflect to progress toward success. I am conscience of the importance in human relations and the need for emotional intellegence, which is why I pride myself on being well equipped to handle the communications aspect. This has given me the ability to navigate and facilitate working with groups of people and assume leadership roles when necessary."
+            }
+        ],
+
+        "Resume":[
+            {
+                "Heading": "Resume",
+
+                "Subheading1":"Sales(Street Fever)",
+
+                "Subheading2":"Electro Therapy and massaging",
+
+                "Subheading3":"Cafe Owner/Manager"
+            }
+        ],
+
+        "Skills":[
+            {
+                "Heading1": "BOOTSTRAP",
+
+                "Heading2": "CSS",
+
+                "Heading3": "HTML",
+
+                "Subheading1": "BEGINNER",
+
+                "Subheading2": "BEGINNER",
+
+                "Subheading3": "BEGINNER"
+            }
+        ],
+
+        "Projects":[
+            {
+                "Heading": "Projects"
+            },
+
+            {
+                "Project1": "ECOMMERCE",
+                "Description1":"This is my first website created",
+                "Githubbutton":"Github",
+                "NetlifyButton":"Netlify"
+            },
+            {
+                "Project2": "ECOMMERCE",
+                "Description2":"This is a clone/copy of the Netflix website",
+                "Githubbutton":"Github",
+                "NetlifyButton":"Netlify"
+            },
+
+            {
+
+                "Project3": "ECOMMERCE",
+                "Description3":"keyboard created with HTML and CSS(no function).",
+                "Githubbutton":"Github",
+                "NetlifyButton":"Netlify"
+            },
+            {
+
+                "Project4": "ECOMMERCE",
+                "Description4":"Calculator created with HTML and CSS(no function).",
+                "Githubbutton":"Github",
+                "NetlifyButton":"Netlify"
+            },
+            {
+                "Project5": "ECOMMERCE",
+                "Description5":"Clone of Mobicare Website.",
+                "Githubbutton":"Github",
+                "NetlifyButton":"Netlify"
+            }
+        ],
+
+        "Testimonials":[
+            {
+                "Heading": "Testimonials"
+            },
+            {
+                "Testimonial1": "Ammara Hoosen",
+                "Description": "Tauha Shaik is honestly a great person to have in the workplace. Throughout our collaboration, Tauha has demonstrated an unwavering commitment to excellence and a tireless work ethic. His keen eye for aesthetics and design is also visually appealing. I wholeheartedly recommend him."
+            },
+            {
+                "Testimonial1": "Muhammad Rajah",
+                "Description": "He is excellent at developing close friendships with all his co-workers while displaying exceptional leadership skills, He tends to always remains calm no matter how stressful a situation may be. If I was to bet on his success,in a few years I would be rich."
+            },
+            {
+                "Testimonial1": "Asithandile Tyulu",
+                "Description": "Tauha is a dedicated professional with a creative and analytical thinking skills that continually impresses. He approaches challenges with eagerness, consistently finding innovative solutions. What truly sets him apart is his remarkable resolve and exceptional emotional intelligence, making him an outstanding asset to any team."
+            },
+            {
+                "Testimonial1": "Caela Morgan Ward",
+                "Description": "Tauha Shaik is a creative and hardworking individual who is passionate about the work he shows. he strives to give his best for any task given to him. He is a kind soul who always tries his best to help those around with great leadership skills."
+            },
+            {
+                "Testimonial1": "Haanim Pieterson",
+                "Description": "Tauha Shaik is an amazing person that just lights up the room he walks in. His character is admirable and work ethic is amazing. He is able to grasp things well from all perspectives. I would recommend Tauha if you want someone who can be a great friend as well as someone that can create and design websites well."
+            },
+            {
+                "Testimonial1": "Joel Mukhanya",
+                "Subheading": "Lecturer",
+                "Description": "Tauha is a creative, Hard-working, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub"
+            }
+        ],
+
+        "Contact":[
+            {
+                "Firstinput": "Name",
+                "Secondinput": "Surname",
+                "Thirdinput": "Email",
+                "Fourthinput": "Message",
+                "Submit": "Submit"
+            }
+        ]
+}
