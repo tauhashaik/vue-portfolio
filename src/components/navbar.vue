@@ -2,7 +2,7 @@
     <div>
         <nav id="navBar" class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-    <a class="navbar-brand" href="/">طه</a>
+    <a class="navbar-brand" href="/"><img id="Logo" src="https://i.postimg.cc/bwcSk9Nd/Taha-Logo-2.png"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -61,15 +61,25 @@ ul{
 }
 
 #navText:hover{
-    transform: scale(1.2);
+    transform: scale(1.6);
     transition: 0.3s;
-    text-decoration: underline black;
+    text-decoration: underline aqua;
     color: black;
-    text-shadow: white 0px 0px 15px;
+    text-shadow:0 0 2px #03e9f4,
+                0 0 2px #03e9f4,
+                0 0 2px #03e9f4,
+                0 0 2px #03e9f4;
 }
 
 .container-fluid{
-    background-color: grey;
+    background-color: black;
+}
+
+#Logo{
+    border: solid rgb(0, 0, 0);
+    border-radius: 3px;
+    width: 70px;
+    height: 70px;
 }
     
 </style>
