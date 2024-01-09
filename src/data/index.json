@@ -55,13 +55,13 @@
             },
 
             {
-                "Project1": "ECOMMERCE",
+                "Project1": "ECOMMERCE WEBSITE",
                 "Description1":"This is my first website created",
                 "Githubbutton":"Github",
                 "NetlifyButton":"Netlify"
             },
             {
-                "Project2": "ECOMMERCE",
+                "Project2": "NETFLIX",
                 "Description2":"This is a clone/copy of the Netflix website",
                 "Githubbutton":"Github",
                 "NetlifyButton":"Netlify"
@@ -69,20 +69,20 @@
 
             {
 
-                "Project3": "ECOMMERCE",
+                "Project3": "KEYBOARD",
                 "Description3":"keyboard created with HTML and CSS(no function).",
                 "Githubbutton":"Github",
                 "NetlifyButton":"Netlify"
             },
             {
 
-                "Project4": "ECOMMERCE",
+                "Project4": "CALCULATOR",
                 "Description4":"Calculator created with HTML and CSS(no function).",
                 "Githubbutton":"Github",
                 "NetlifyButton":"Netlify"
             },
             {
-                "Project5": "ECOMMERCE",
+                "Project5": "MOBICARE",
                 "Description5":"Clone of Mobicare Website.",
                 "Githubbutton":"Github",
                 "NetlifyButton":"Netlify"
@@ -122,10 +122,10 @@
 
         "Contact":[
             {
-                "Firstinput": "Name",
-                "Secondinput": "Surname",
-                "Thirdinput": "Email",
-                "Fourthinput": "Message",
+                "Firstinput": "Name:",
+                "Secondinput": "Surname:",
+                "Thirdinput": "Email:",
+                "Fourthinput": "Message:",
                 "Submit": "Submit"
             }
         ]
