@@ -131,7 +131,11 @@ export default {
   }
   h3{
     margin-top: 50px !important;
-    color: whitesmoke !important;
+    color: black !important;
+    text-shadow:0 0 2px #03e9f4,
+                0 0 2px #03e9f4,
+                0 0 2px #03e9f4,
+                0 0 2px #03e9f4;
     text-align: center;
     font-weight: bold;
     transition: 0.5s;
