@@ -30,15 +30,15 @@
 
           <div class="icon-container">
           <a href="https://www.facebook.com/tauha.shaik.5/" target="_blank">
-            <i class="fa-brands fa-facebook fa-bounce fa-2xl"></i>
+            <i id="icn" class="fa-brands fa-facebook fa-bounce fa-2xl"></i>
           </a>
 
           <a href="whatsapp://send?phone=+27715444231&text=Hello%20there!" target="_blank">
-            <i class="fa-brands fa-whatsapp fa-bounce fa-2xl"></i>
+            <i id="icn" class="fa-brands fa-whatsapp fa-bounce fa-2xl"></i>
           </a>
 
           <a href="https://github.com/tauhashaik">
-            <i class="fa-brands fa-github fa-bounce fa-2xl"></i>
+            <i id="icn" class="fa-brands fa-github fa-bounce fa-2xl"></i>
           </a>
           </div>   
         </div>
@@ -166,6 +166,8 @@ export default {
                 0 0 2px #03e9f4,
                 0 0 2px #03e9f4,
                 0 0 2px #03e9f4;
+    transform: scale(1.1);
+    transition: 0.3s;
   }
 
   #j{
@@ -190,6 +192,7 @@ export default {
   gap: 20px;
   justify-content: center;
 }
+
 .center-container {
   text-align: center;
   display: flex;

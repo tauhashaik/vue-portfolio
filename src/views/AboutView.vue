@@ -40,7 +40,7 @@ export default {
   
 }
 </script>
-<style>
+<style scoped>
 
 #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
