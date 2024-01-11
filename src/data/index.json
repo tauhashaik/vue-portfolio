@@ -45,65 +45,65 @@
           {
               "id": 1,
                 
-              "Bootstrapimage": "https://i.postimg.cc/8cYW28Sb/bootstrap-logo.png",
+              "image": "https://i.postimg.cc/8cYW28Sb/bootstrap-logo.png",
                 
-              "Heading1": "BOOTSTRAP",
+              "Heading": "BOOTSTRAP",
 
-              "Subheading1": "BEGINNER"
+              "Subheading": "BEGINNER"
           },
           {
               "id": "2",
-              "Cssimage": "https://i.postimg.cc/sxx7HjtX/css3-logo.png",
+              "image": "https://i.postimg.cc/sxx7HjtX/css3-logo.png",
 
-              "Heading2": "CSS",
+              "Heading": "CSS",
 
-              "Subheading2": "BEGINNER"
+              "Subheading": "BEGINNER"
           },
           {
               "id": "3",
                 
-              "Htmlimage": "https://i.postimg.cc/FKvc5g2w/html5-logo.png",
+              "image": "https://i.postimg.cc/FKvc5g2w/html5-logo.png",
 
-              "Heading3": "HTML",
+              "Heading": "HTML",
 
-              "Subheading3": "BEGINNER"
+              "Subheading": "BEGINNER"
           },
           {
               "id": "4",
                 
-              "Javascriptimage": "https://i.postimg.cc/HLXVJ2w0/Js-logo-512.png",
+              "image": "https://i.postimg.cc/HLXVJ2w0/Js-logo-512.png",
                 
-              "Heading4": "JAVASCRIPT",
+              "Heading": "JAVASCRIPT",
 
-              "Subheading4": "BEGINNER"
+              "Subheading": "BEGINNER"
           },
           {
                 
               "id": "5",
                 
-              "Vueimage": "https://i.postimg.cc/tJCTMGLD/Vue-js-Logo-2.png",
+              "image": "https://i.postimg.cc/tJCTMGLD/Vue-js-Logo-2.png",
                 
-              "Heading5": "VUE.JS",
+              "Heading": "VUE.JS",
 
-              "Subheading5": "BEGINNER"
+              "Subheading": "BEGINNER"
           },
           {
               "id": "6",
                 
-              "Nodeimage": "https://i.postimg.cc/LXShj1Dc/nodejs-icon.png",
+              "image": "https://i.postimg.cc/LXShj1Dc/nodejs-icon.png",
                 
-              "Heading6": "NODE.JS",
+              "Heading": "NODE.JS",
 
-              "Subheading6": "BEGINNER"
+              "Subheading": "BEGINNER"
           },
           {
               "id": "7",
                 
-              "Mysqlimage": "https://i.postimg.cc/sXJxmg0v/mysql-icon.png",
+              "image": "https://i.postimg.cc/sXJxmg0v/mysql-icon.png",
                 
-              "Heading7": "MYSQL",
+              "Heading": "MYSQL",
 
-              "Subheading7": "BEGINNER"
+              "Subheading": "BEGINNER"
           }
       ],
 

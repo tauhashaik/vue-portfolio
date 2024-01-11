@@ -4,7 +4,9 @@ import axios from "axios"
 export default createStore({
   state: {
     Projects:[],
-    Testimonials:[]
+    Testimonials:[],
+    Resume:[],
+    Skills:[]
   },
   getters: {
   },
@@ -15,6 +17,10 @@ export default createStore({
 
     setTestimonials(state,data){
       state.Testimonials=data
+    },
+
+    setSkills(state,data){
+      state.Skills=data
     }
   },
   actions: {
@@ -33,6 +39,14 @@ export default createStore({
         context.commit("setTestimonials",t.data.Testimonials);
       })
     },
+
+    fetchDataSkills(context){
+      axios.get("https://tauhashaik.github.io/vue-jsonfile/")
+      .then((s)=>{
+        console.log(s.data.Skills);
+        context.commit("setSkills",s.data.Skills);
+      })
+    }
   },
   modules: {
   }

@@ -12,7 +12,8 @@
           <li id="Lett">S</li>
         </ul>
       </h6>
-      <div class="container text-center">
+
+      <!-- <div class="container text-center">
         <div class="row">
           <div class="col">
             <img id="Slogo" src="https://i.postimg.cc/G2gPPTHt/bootstrap-logo.png" alt="">
@@ -55,9 +56,18 @@
             <h2>NODE.JS</h2>
             <h2>(BEGINNER)</h2>
           </div>
-
+        </div> -->
+    <div class="row row-cols-1 row-cols-md-3 g-4"><div v-for="Skill in $store.state.Skills" :key="Skill" class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img id="Slogo" :src="Skill.image" alt="">
+            <h2>{{ Skill.Heading }}</h2>
+            <h2>{{ Skill.Subheading }}</h2>
+          </div>
         </div>
       </div>
+    </div>
+      
 </div>
 </body>
 
@@ -65,6 +75,15 @@
 </template>
 <script>
 export default {
+
+  computed:{
+        fetchDataSkills(){
+            this.$store.dispatch('fetchDataSkills')
+        }
+    },
+    mounted(){
+        this.fetchDataSkills
+    }
     
 }
 </script>
@@ -74,7 +93,7 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 86vh !important;
+  height: 120vh !important;
 }
 
 #Labels {
