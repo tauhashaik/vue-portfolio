@@ -24,7 +24,7 @@
           <router-link id="navText" class="nav-link active" to="/projects">Projects</router-link>
         </li>
         <li class="nav-item">
-          <router-link  id="navText" class="nav-link active" to="/testimonials">Testimonials</router-link>
+          <router-link  id="navText" class="nav-link active" to="/testimonial">Testimonials</router-link>
         </li>
         <li class="nav-item">
           <router-link id="navText" class="nav-link active" to="/contact">Contact</router-link>

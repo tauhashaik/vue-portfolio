@@ -16,7 +16,7 @@
           </ul>
         </h6>
 
-        <div class="container">
+        <!-- <div class="container">
           <div class="box">
             <span></span>
             <div class="content">
@@ -77,7 +77,21 @@
             </div>
           </div>
           
+        </div> -->
+        <div class="container"><div v-for="Project in $store.state.Projects" :key="Project" class="box">
+
+            <span></span>
+            <div class="content">
+              <h2>{{Project.Project}}</h2>
+              <p>{{ Project.Description }}</p>
+              <img id="projP" :src="Project.image" alt="">
+              <a id="links" :href="Project.Githublink" target="_blank">{{ Project.Githubbutton }}</a><a id="links" :href="Project.Netlifylink" target="_blank">{{ Project.NetlifyButton }}</a>
+            </div>
+          </div>
+
         </div>
+        
+
     </div>
 
 </body>
@@ -86,6 +100,14 @@
 </template>
 <script>
 export default {
+    computed:{
+        fetchDataProjects(){
+            this.$store.dispatch('fetchDataProjects')
+        }
+    },
+    mounted(){
+        this.fetchDataProjects
+    }
     
 }
 </script>

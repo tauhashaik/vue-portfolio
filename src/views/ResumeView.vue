@@ -4,16 +4,17 @@
     <div id="WORK">
         <h6>
             <ul id="Labels">
-                <li id="Lett">W</li>
-                <li id="Lett">O</li>
                 <li id="Lett">R</li>
-                <li id="Lett">K</li>
-                <li id="Lett"></li>
-                <br>
-                <li id="Lett">XP</li>
+                <li id="Lett">E</li>
+                <li id="Lett">S</li>
+                <li id="Lett">U</li>
+                <li id="Lett">M</li>
+                <li id="Lett">E</li>
             </ul>
         </h6>
      </div>
+
+     
 
     </body>
 </template>

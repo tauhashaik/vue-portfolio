@@ -1,132 +1,220 @@
 {
-      "Home":[
-                {
-                   "Heading":"Welcome",
+    "Home":[
+              {
+                 "Logo":"https://i.postimg.cc/bwcSk9Nd/Taha-Logo-2.png",
+                    
+                 "Backgroundimage":"https://i.postimg.cc/05XpMSwJ/6004798.jpg",
+                    
+                 "Heading":"Welcome",
 
-                   "Subheading": "I am Tauha Hoosain Shaik, an aspiring Full Stack Developer",
+                 "Profileimage":"https://i.postimg.cc/0yDmBHHp/20231103-221102-01.jpg",
 
-                   "Projbutton":"My Projects",
+                 "Subheading": "I am Tauha Hoosain Shaik, an aspiring Full Stack Developer",
 
-                   "Contactbutton":"Contact Me"
-                }
-            ],
+                 "Projbutton":"My Projects",
 
-        "About":[
-            {
-                "Heading": "About",
+                 "Contactbutton":"Contact Me"
+              }
+          ],
 
-                "Subheading":"Who Am I?",
+      "About":[
+          {
+              "Heading": "About",
 
-                "Descriptions":"I am a hardworking individual that strives for constant improvement through diligence and the drive to learn. Patience and perseverence is a large part of my work ethic as well as the ability to self reflect to progress toward success. I am conscience of the importance in human relations and the need for emotional intellegence, which is why I pride myself on being well equipped to handle the communications aspect. This has given me the ability to navigate and facilitate working with groups of people and assume leadership roles when necessary."
-            }
-        ],
+              "Subheading":"Who Am I?",
 
-        "Resume":[
-            {
-                "Heading": "Resume",
+              "Descriptions":"I am a hardworking individual that strives for constant improvement through diligence and the drive to learn. Patience and perseverence is a large part of my work ethic as well as the ability to self reflect to progress toward success. I am conscience of the importance in human relations and the need for emotional intellegence, which is why I pride myself on being well equipped to handle the communications aspect. This has given me the ability to navigate and facilitate working with groups of people and assume leadership roles when necessary."
+          }
+      ],
 
-                "Subheading1":"Sales(Street Fever)",
+      "Resume":[
+          {
+              "Profileimage":"https://i.postimg.cc/0yDmBHHp/20231103-221102-01.jpg",
+                
+              "Heading": "Resume",
 
-                "Subheading2":"Electro Therapy and massaging",
+              "Subheading1": "Sales(Street Fever)",
 
-                "Subheading3":"Cafe Owner/Manager"
-            }
-        ],
+              "Subheading2": "Electro Therapy and massaging",
 
-        "Skills":[
-            {
-                "Heading1": "BOOTSTRAP",
+              "Subheading3": "Cafe Owner/Manager"
+          }
+      ],
 
-                "Heading2": "CSS",
+      "Skills":[
+          {
+              "id": 1,
+                
+              "Bootstrapimage": "https://i.postimg.cc/8cYW28Sb/bootstrap-logo.png",
+                
+              "Heading1": "BOOTSTRAP",
 
-                "Heading3": "HTML",
+              "Subheading1": "BEGINNER"
+          },
+          {
+              "id": "2",
+              "Cssimage": "https://i.postimg.cc/sxx7HjtX/css3-logo.png",
 
-                "Subheading1": "BEGINNER",
+              "Heading2": "CSS",
 
-                "Subheading2": "BEGINNER",
+              "Subheading2": "BEGINNER"
+          },
+          {
+              "id": "3",
+                
+              "Htmlimage": "https://i.postimg.cc/FKvc5g2w/html5-logo.png",
 
-                "Subheading3": "BEGINNER"
-            }
-        ],
+              "Heading3": "HTML",
 
-        "Projects":[
-            {
-                "Heading": "Projects"
-            },
+              "Subheading3": "BEGINNER"
+          },
+          {
+              "id": "4",
+                
+              "Javascriptimage": "https://i.postimg.cc/HLXVJ2w0/Js-logo-512.png",
+                
+              "Heading4": "JAVASCRIPT",
 
-            {
-                "Project1": "ECOMMERCE WEBSITE",
-                "Description1":"This is my first website created",
-                "Githubbutton":"Github",
-                "NetlifyButton":"Netlify"
-            },
-            {
-                "Project2": "NETFLIX",
-                "Description2":"This is a clone/copy of the Netflix website",
-                "Githubbutton":"Github",
-                "NetlifyButton":"Netlify"
-            },
+              "Subheading4": "BEGINNER"
+          },
+          {
+                
+              "id": "5",
+                
+              "Vueimage": "https://i.postimg.cc/tJCTMGLD/Vue-js-Logo-2.png",
+                
+              "Heading5": "VUE.JS",
 
-            {
+              "Subheading5": "BEGINNER"
+          },
+          {
+              "id": "6",
+                
+              "Nodeimage": "https://i.postimg.cc/LXShj1Dc/nodejs-icon.png",
+                
+              "Heading6": "NODE.JS",
 
-                "Project3": "KEYBOARD",
-                "Description3":"keyboard created with HTML and CSS(no function).",
-                "Githubbutton":"Github",
-                "NetlifyButton":"Netlify"
-            },
-            {
+              "Subheading6": "BEGINNER"
+          },
+          {
+              "id": "7",
+                
+              "Mysqlimage": "https://i.postimg.cc/sXJxmg0v/mysql-icon.png",
+                
+              "Heading7": "MYSQL",
 
-                "Project4": "CALCULATOR",
-                "Description4":"Calculator created with HTML and CSS(no function).",
-                "Githubbutton":"Github",
-                "NetlifyButton":"Netlify"
-            },
-            {
-                "Project5": "MOBICARE",
-                "Description5":"Clone of Mobicare Website.",
-                "Githubbutton":"Github",
-                "NetlifyButton":"Netlify"
-            }
-        ],
+              "Subheading7": "BEGINNER"
+          }
+      ],
 
-        "Testimonials":[
-            {
-                "Heading": "Testimonials"
-            },
-            {
-                "Testimonial1": "Ammara Hoosen",
-                "Description": "Tauha Shaik is honestly a great person to have in the workplace. Throughout our collaboration, Tauha has demonstrated an unwavering commitment to excellence and a tireless work ethic. His keen eye for aesthetics and design is also visually appealing. I wholeheartedly recommend him."
-            },
-            {
-                "Testimonial1": "Muhammad Rajah",
-                "Description": "He is excellent at developing close friendships with all his co-workers while displaying exceptional leadership skills, He tends to always remains calm no matter how stressful a situation may be. If I was to bet on his success,in a few years I would be rich."
-            },
-            {
-                "Testimonial1": "Asithandile Tyulu",
-                "Description": "Tauha is a dedicated professional with a creative and analytical thinking skills that continually impresses. He approaches challenges with eagerness, consistently finding innovative solutions. What truly sets him apart is his remarkable resolve and exceptional emotional intelligence, making him an outstanding asset to any team."
-            },
-            {
-                "Testimonial1": "Caela Morgan Ward",
-                "Description": "Tauha Shaik is a creative and hardworking individual who is passionate about the work he shows. he strives to give his best for any task given to him. He is a kind soul who always tries his best to help those around with great leadership skills."
-            },
-            {
-                "Testimonial1": "Haanim Pieterson",
-                "Description": "Tauha Shaik is an amazing person that just lights up the room he walks in. His character is admirable and work ethic is amazing. He is able to grasp things well from all perspectives. I would recommend Tauha if you want someone who can be a great friend as well as someone that can create and design websites well."
-            },
-            {
-                "Testimonial1": "Joel Mukhanya",
-                "Subheading": "Lecturer",
-                "Description": "Tauha is a creative, Hard-working, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub"
-            }
-        ],
+      "Projects":[
+          {
+              "Heading": "Projects"
+          },
 
-        "Contact":[
-            {
-                "Firstinput": "Name:",
-                "Secondinput": "Surname:",
-                "Thirdinput": "Email:",
-                "Fourthinput": "Message:",
-                "Submit": "Submit"
-            }
-        ]
+          {
+              "id": "1",
+              "image": "https://i.postimg.cc/MpGmyGqT/Js-Ecommerce.png",
+              "Project": "ECOMMERCE WEBSITE",
+              "Description":"This is my first website created",
+              "Githubbutton":"Github",
+              "NetlifyButton":"Netlify",
+                 "Githublink": "https://github.com/tauhashaik/ecommerceProj.git",
+                "Netlifylink": "https://jolly-nasturtium-dad3bf.netlify.app"
+          },
+          {
+              "id": "2",
+              "image": "https://i.postimg.cc/Pf7wrkgW/Netflix-Pic.png",
+              "Project": "NETFLIX",
+              "Description":"This is a clone/copy of the Netflix website using HTML and CSS only",
+              "Githubbutton":"Github",
+              "NetlifyButton":"Netlify",
+                 "Githublink": "https://github.com/tauhashaik/netflixProject.git",
+                "Netlifylink": "https://extraordinary-jalebi-c3054b.netlify.app"
+          },
+
+          {
+              "id": "3",
+              "image": "https://i.postimg.cc/rmFrzyyJ/Keyboard-Pic.png",
+              "Project": "KEYBOARD",
+              "Description":"keyboard created with HTML and CSS(no functionality).",
+              "Githubbutton":"Github",
+              "NetlifyButton":"Netlify",
+                "Githublink": "https://github.com/tauhashaik/keyboard.git",
+                "Netlifylink": "https://glittering-kitten-f62054.netlify.app"
+          },
+          {
+              "id": "4",
+              "image": "https://i.postimg.cc/Y9p1gfRQ/Calculator-Pic.png",
+              "Project": "CALCULATOR",
+              "Description":"Calculator created with HTML and CSS(no function).",
+              "Githubbutton":"Github",
+              "NetlifyButton":"Netlify",
+                "Githublink": "https://github.com/tauhashaik/calculator.git",
+                "Netlifylink": "https://splendorous-kringle-35525d.netlify.app"
+          },
+          {
+              "id": "5",
+              "image": "https://i.postimg.cc/hjy7mFfq/Mobi-Care-Pic.png",
+              "Project": "MOBICARE",
+              "Description":"Clone of Mobicare Website.",
+              "Githubbutton":"Github",
+              "NetlifyButton":"Netlify",
+                "Githublink": "https://github.com/tauhashaik/mobiCare.git",
+                "Netlifylink": "https://elaborate-taffy-ee02c9.netlify.app"
+          }
+      ],
+
+      "Testimonials":[
+          {
+              "Heading": "Testimonials"
+          },
+          {
+              "id": "1",
+              "Ammaraimage": "https://i.postimg.cc/KYh7cygq/Ammara.png",
+              "Testimonial1": "Ammara Hoosen",
+              "Description": "Tauha Shaik is honestly a great person to have in the workplace. Throughout our collaboration, Tauha has demonstrated an unwavering commitment to excellence and a tireless work ethic. His keen eye for aesthetics and design is also visually appealing. I wholeheartedly recommend him."
+          },
+          {
+              "id": "2",
+              "Rajaimage": "https://i.postimg.cc/W3X07FYC/Rajah.png",
+              "Testimonial1": "Muhammad Rajah",
+              "Description": "He is excellent at developing close friendships with all his co-workers while displaying exceptional leadership skills, He tends to always remains calm no matter how stressful a situation may be. If I was to bet on his success,in a few years I would be rich."
+          },
+          {
+              "id": "3",
+              "Asiimage":"https://i.postimg.cc/T2tcVSZ1/Asithandile-PIC.png",
+              "Testimonial1": "Asithandile Tyulu",
+              "Description": "Tauha is a dedicated professional with a creative and analytical thinking skills that continually impresses. He approaches challenges with eagerness, consistently finding innovative solutions. What truly sets him apart is his remarkable resolve and exceptional emotional intelligence, making him an outstanding asset to any team."
+          },
+          {
+              "id": "4",
+              "Caelaimage": "https://i.postimg.cc/J4t5PxLq/Kayla.jpg",
+              "Testimonial1": "Caela Morgan Ward",
+              "Description": "Tauha Shaik is a creative and hardworking individual who is passionate about the work he shows. he strives to give his best for any task given to him. He is a kind soul who always tries his best to help those around with great leadership skills."
+          },
+          {
+              "id": "5",
+              "Haanimimage": "https://i.postimg.cc/Bv5TXwTq/Haanim.jpg",
+              "Testimonial1": "Haanim Pieterson",
+              "Description": "Tauha Shaik is an amazing person that just lights up the room he walks in. His character is admirable and work ethic is amazing. He is able to grasp things well from all perspectives. I would recommend Tauha if you want someone who can be a great friend as well as someone that can create and design websites well."
+          },
+          {
+              "id": "6",
+              "Joelimage": "https://i.postimg.cc/GtgJb8kG/joel2.jpg",
+              "Testimonial1": "Joel Mukhanya",
+              "Subheading": "Lecturer",
+              "Description": "Tauha is a creative, Hard-working, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub"
+          }
+      ],
+
+      "Contact":[
+          {
+              "Firstinput": "Name:",
+              "Secondinput": "Surname:",
+              "Thirdinput": "Email:",
+              "Fourthinput": "Message:",
+              "Submit": "Submit"
+          }
+      ]
 }
