@@ -272,4 +272,28 @@ p{
                 0 0 5px #000000;
 }
 
+
+/* Your existing styles */
+
+@media only screen and (max-width: 720px) {
+
+  #Labels {
+    font-size: 40px;
+  }
+
+  h1, h3, h5, p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+
+  #Labels {
+    font-size: 30px; 
+  }
+
+  h1, h3, h5, p {
+    font-size: 14px;
+  }
+}
 </style>

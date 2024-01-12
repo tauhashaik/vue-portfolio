@@ -188,4 +188,38 @@ export default {
   z-index:1;
 }
     
+
+@media only screen and (max-width: 300px) {
+  #Body {
+    height: 100vh !important;
+  }
+
+  #Labels {
+    font-size: 30px;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  #Slogo {
+    width: 150px;
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #Labels {
+    font-size: 40px;
+  }
+
+  .col {
+    width: 100%; 
+  }
+
+  #Slogo {
+    width: 200px; 
+    height: 120px;
+  }
+}
 </style>

@@ -216,4 +216,23 @@ export default {
 #INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
   padding-top: 100px !important;
 }
+
+
+@media only screen and (max-width: 300px) {
+  .responsive-container {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 720px) {
+  .responsive-container {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .responsive-container {
+    font-size: 18px;
+  }
+}
 </style>

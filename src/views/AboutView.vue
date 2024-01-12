@@ -196,4 +196,41 @@ export default {
                 0 0 2px #03e9f4;
   }
   
+  @media only screen and (max-width: 720px) {
+    #Body {
+      background-size: contain;
+    }
+
+    #j {
+      width: 100%;
+      height: auto;
+    }
+
+    #abtBox {
+      text-align: center;
+    }
+
+    #abth3 {
+      font-size: 1.5em;
+    }
+
+    #abtP {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    #Labels {
+      font-size: 30px;
+      letter-spacing: 5px;
+    }
+
+    #abth3 {
+      font-size: 1.2em;
+    }
+
+    #abtP {
+      font-size: 12px;
+    }
+  }
 </style>

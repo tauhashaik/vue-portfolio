@@ -223,4 +223,51 @@ p{
 .info{
     margin-top: 80px;
 }
+
+@media only screen and (max-width: 720px) {
+
+  #Body {
+    height: auto;
+  }
+
+  #Labels {
+    font-size: 40px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    padding: 8px 50px;
+  }
+
+  h4 {
+    text-shadow: 0 0 2px #03e9f4;
+  }
+
+  p {
+    margin-top: 30px !important;
+  }
+
+  #map {
+    margin-top: 30px;
+  }
+
+  .info {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+
+  #Labels {
+    font-size: 30px;
+  }
+
+  input[type="submit"] {
+    padding: 8px 30px;
+    font-size: medium;
+  }
+}
 </style>
