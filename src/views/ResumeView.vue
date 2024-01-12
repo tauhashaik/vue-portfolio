@@ -14,7 +14,47 @@
         </h6>
      </div>
 
-     
+<div class="container">
+  <div class="row">
+    <div v-for="Resume1 in $store.state.Resume1" :key="Resume1" class="col-12">
+        <h1>{{Resume1.Title}}</h1>
+    </div>
+
+
+    <div v-for="Resume2 in $store.state.Resume2" :key="Resume2"  class="col-7">
+
+    <h3>{{Resume2.Title}}</h3>
+    <br>
+    
+    <div>
+        <ul>
+            <li> 
+                <h5>{{Resume2.Work}}</h5>
+                <p>{{Resume2.Description}}</p>
+                <p>{{Resume2.Years}}</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    <div v-for="Resume3 in $store.state.Resume3" :key="Resume3" class="col-5">
+
+        <h3>{{Resume3.Title}}</h3>
+
+    <div>
+        <ul>
+            <li> 
+                <h5>{{Resume3.Education}}</h5>
+                <p>{{Resume3.Education2}}</p>
+                <p>{{Resume3.Education3}}</p>
+            </li>
+        </ul>
+    </div>
+
+    </div>
+  </div>
+</div>
+
 
      
 
@@ -22,10 +62,31 @@
 </template>
 <script>
 export default {
+    computed:{
+        fetchDataResume1(){
+            this.$store.dispatch('fetchDataResume1')
+        },
+        
+        fetchDataResume2(){
+            this.$store.dispatch('fetchDataResume2')
+        },
+
+        fetchDataResume3(){
+            this.$store.dispatch('fetchDataResume3')
+        }
+        
+    },
+    mounted(){
+        this.fetchDataResume1
+        this.fetchDataResume2
+        this.fetchDataResume3
+    }
+    
     
 }
 </script>
-<style>
+<style scoped>
+
 
 #Labels {
     list-style: none;
@@ -94,6 +155,62 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 87vh;
 }  
+
+h1{
+    font-weight: 20;
+    color: white !important;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: black;
+    text-shadow:0 0 3px #03e9f4,
+                0 0 3px #03e9f4,
+                0 0 3px #03e9f4,
+                0 0 3px #03e9f4;
+}
+
+h3{
+    font-weight: 20;
+    color: white;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    /* color: black; */
+    text-shadow:0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 5px #03e9f4;
+}
+h5{
+    font-weight: 20;
+    color: white;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    /* color: black; */
+    text-shadow:0 0 2px #03e9f4,
+                0 0 2px #03e9f4,
+                0 0 2px #03e9f4,
+                0 0 2px #03e9f4;
+}
+
+p{
+    font-weight: 20;
+    color: white;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    /* color: black; */
+    text-shadow:0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000;
+}
+
 </style>
