@@ -19,12 +19,15 @@
         </h6>
         <h3>I AM AN ASPIRING FULL STACK DEVELOPER</h3>
 
+        <div class="row">
+          <div class="col">
+
         <div class="center-container">
-          <a href="#WORK">
+          <a href="/projects">
           <button class="center-button">MY WORK</button>
         </a>
 
-        <a href="#Contact">
+        <a href="/contact">
           <button class="center-button">CONTACT</button>
         </a> 
 
@@ -43,6 +46,12 @@
           </a>
           </div>   
         </div>
+          </div>
+          <div class="col">
+            <img id="j" src="https://i.postimg.cc/LsHjr3Ph/Profile-Pic.jpg" alt="">
+          </div>
+        </div>
+        
       </div>
     
   </body>
@@ -176,9 +185,9 @@ export default {
   }
 
   #j{
-    margin-top: 80px;
-  width: 350px;
-  height: 400px;
+    margin-top: 50px;
+  width: 300px;
+  height: 300px;
   /* display: flex; */
   justify-content: center;
   opacity: 0.7;
@@ -188,7 +197,7 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 100vh;
 }
 
 .icon-container {
@@ -205,6 +214,6 @@ export default {
   align-items: center;
 }
 #INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
-  padding-top: 80px;
+  padding-top: 100px !important;
 }
 </style>

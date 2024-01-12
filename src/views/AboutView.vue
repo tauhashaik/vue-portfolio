@@ -42,11 +42,15 @@ export default {
 </script>
 <style scoped>
 
+#INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
+  padding-top: 90px !important;
+}
+
 #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh !important;
+  height: 100vh !important;
 }
 
  #j{

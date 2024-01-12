@@ -78,6 +78,10 @@ export default {
 </script>
 <style scoped>
 
+#INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
+  padding-top: 70px !important;
+}
+
 #Labels {
     padding-top: 50px;
     list-style: none;
@@ -146,7 +150,7 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 88vh;
+  height: 115vh;
 }
 
 form {

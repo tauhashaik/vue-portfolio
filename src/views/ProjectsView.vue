@@ -113,8 +113,8 @@ export default {
 </script>
 <style scoped>
 
-#PROJECT{
-    padding-top: 80px;
+#INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
+  padding-top: 100px !important;
 }
 
 #Labels {
@@ -184,7 +184,7 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 163vh;
+  height: 166vh;
 }
 .container
 {

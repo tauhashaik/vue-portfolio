@@ -128,6 +128,10 @@ export default {
 </script>
 <style scoped>
 
+#INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
+  padding-top: 100px !important;
+}
+
 
 #Labels {
     list-style: none;
@@ -196,7 +200,7 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 87vh;
+  height: 98vh;
 }  
 
 h1{
