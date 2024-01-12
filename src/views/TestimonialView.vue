@@ -85,7 +85,11 @@
                 </div>
               </div> -->
 
-              <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div v-if="!$store.state.Testimonials.length">
+          <spinner/>
+        </div>
+          <div v-else>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div v-for="Testimonial in $store.state.Testimonials" :key="Testimonial" class="containerT">
                     <div class="card">
                     <div class="img-container">
@@ -98,13 +102,15 @@
           </div>
         </div>
     </div>
-
-
       </div>
 
+          </div>
+              
    </body>
 </template>
 <script>
+import spinner from '@/components/spinner.vue'
+
 export default {
     
     computed:{
@@ -114,6 +120,9 @@ export default {
     },
     mounted(){
         this.fetchDataTestimonials
+    },
+    components:{
+      spinner
     }
     
 }

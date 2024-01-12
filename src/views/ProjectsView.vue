@@ -78,19 +78,22 @@
           </div>
           
         </div> -->
-        <div class="container"><div v-for="Project in $store.state.Projects" :key="Project" class="box">
-
-            <span></span>
-            <div class="content">
-              <h2>{{Project.Project}}</h2>
-              <p>{{ Project.Description }}</p>
-              <img id="projP" :src="Project.image" alt="">
-              <a id="links" :href="Project.Githublink" target="_blank">{{ Project.Githubbutton }}</a><a id="links" :href="Project.Netlifylink" target="_blank">{{ Project.NetlifyButton }}</a>
+        <div v-if="!$store.state.Projects.length">
+          <spinner/>
+        </div>
+        <div v-else>
+          <div class="container">
+            <div v-for="Project in $store.state.Projects" :key="Project" class="box">
+              <span></span>
+              <div class="content">
+                <h2>{{Project.Project}}</h2>
+                <p>{{ Project.Description }}</p>
+                <img id="projP" :src="Project.image" alt="">
+                <a id="links" :href="Project.Githublink" target="_blank">{{ Project.Githubbutton }}</a><a id="links" :href="Project.Netlifylink" target="_blank">{{ Project.NetlifyButton }}</a>
+              </div>
             </div>
           </div>
-
         </div>
-        
 
     </div>
 
@@ -99,6 +102,8 @@
     
 </template>
 <script>
+import spinner from '@/components/spinner.vue'
+
 export default {
     computed:{
         fetchDataProjects(){
@@ -107,6 +112,10 @@ export default {
     },
     mounted(){
         this.fetchDataProjects
+    },
+
+    components:{
+      spinner
     }
     
 }

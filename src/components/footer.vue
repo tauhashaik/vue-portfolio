@@ -1,11 +1,27 @@
 <template>
-        <footer id="foot">@2023 Copyright Tauha Inc</footer>
+        <footer id="foot">Kwagga</footer>
 </template>
 <script>
 export default {
+        data(){
+               return{
+                currentYear: ""
+               };
+        },
+        mounted(){
+                thisgetData();
+        },
+        methods:{
+                getData(){
+                        let currentYear = new Date().getFullYear();
+                        this.currentYear = currentYear.toString();
+                }
+        }
     
 }
 </script>
-<style lang="">
-    
+<style>
+    #footer{
+        color: red;
+    }
 </style>

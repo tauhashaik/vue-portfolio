@@ -53,7 +53,12 @@
     </div>
 
     </div> -->
-<div class="row">
+
+    <div v-if="!$store.state.Resume1.length">
+          <spinner/>
+        </div>
+        <div v-else>
+          <div class="row">
     <div class="col">
       <div class="info">
         <div v-for="Resume2 in $store.state.Resume2" :key="Resume2" >
@@ -95,6 +100,8 @@
 </div>
 </div>
 </div>
+        </div>
+
 
 
      
@@ -102,7 +109,14 @@
     </body>
 </template>
 <script>
+import spinner from '@/components/spinner.vue'
+
 export default {
+
+  components:{
+      spinner
+    },
+    
     computed:{
         fetchDataResume1(){
             this.$store.dispatch('fetchDataResume1')
