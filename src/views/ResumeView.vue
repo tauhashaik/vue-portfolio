@@ -14,30 +14,31 @@
         </h6>
      </div>
 
-<div class="container">
-  <div class="row">
+<!-- <div class="container">
     <div v-for="Resume1 in $store.state.Resume1" :key="Resume1" class="col-12">
         <h1>{{Resume1.Title}}</h1>
     </div>
 
 
-    <div v-for="Resume2 in $store.state.Resume2" :key="Resume2"  class="col-7">
+    <div v-for="Resume2 in $store.state.Resume2" :key="Resume2"  class="col-6">
 
     <h3>{{Resume2.Title}}</h3>
     <br>
     
     <div>
-        <ul>
-            <li> 
-                <h5>{{Resume2.Work}}</h5>
-                <p>{{Resume2.Description}}</p>
-                <p>{{Resume2.Years}}</p>
-            </li>
-        </ul>
+            <ul>
+                <li> 
+                    <h5>{{Resume2.Work}}</h5>
+                    <p>{{Resume2.Description}}</p>
+                    <p>{{Resume2.Years}}</p>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 
-    <div v-for="Resume3 in $store.state.Resume3" :key="Resume3" class="col-5">
+
+    <div v-for="Resume3 in $store.state.Resume3" :key="Resume3" class="col-6">
 
         <h3>{{Resume3.Title}}</h3>
 
@@ -51,8 +52,48 @@
         </ul>
     </div>
 
+    </div> -->
+<div class="row">
+    <div class="col">
+      <div class="info">
+        <div v-for="Resume2 in $store.state.Resume2" :key="Resume2" >
+
+    <h3>{{Resume2.Title}}</h3>
+    <br>
+    
+    <div>
+            <ul>
+                <li> 
+                    <h5>{{Resume2.Work}}</h5>
+                    <p>{{Resume2.Description}}</p>
+                    <p>{{Resume2.Years}}</p>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
+</div>
+</div>
+
+<div class="col">
+    <div class="info">
+        
+        <div v-for="Resume3 in $store.state.Resume3" :key="Resume3">
+
+<h3>{{Resume3.Title}}</h3>
+
+<div>
+<ul>
+    <li> 
+        <h5>{{Resume3.Education}}</h5>
+        <p>{{Resume3.Education2}}</p>
+        <p>{{Resume3.Education3}}</p>
+    </li>
+</ul>
+</div>
+
+    </div>
+</div>
+</div>
 </div>
 
 
