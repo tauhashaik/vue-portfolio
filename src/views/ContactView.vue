@@ -201,6 +201,7 @@ input[type="submit"]:hover {
   color: #000;
   font-size: larger;
 }
+
 h4{
     color: black !important;
     text-shadow:0 0 2px #03e9f4,
@@ -208,6 +209,7 @@ h4{
                 0 0 2px #03e9f4,
                 0 0 2px #03e9f4;
 }
+
 p{
     margin-top: 50px !important;
     color: whitesmoke !important;

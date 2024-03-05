@@ -219,7 +219,7 @@ export default {
 
 
 @media only screen and (max-width: 300px) {
-  .responsive-container {
+.responsive-container {
     font-size: 14px;
   }
 }
