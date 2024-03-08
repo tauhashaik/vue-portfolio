@@ -1,7 +1,7 @@
 <template lang="">
     <body id="Body">
         
-    <div id="WORK">
+    <div data-aos="slide-up" id="WORK">
         <h6>
             <ul id="Labels">
                 <li id="Lett">R</li>
@@ -54,12 +54,12 @@
 
     </div> -->
 
-    <div v-if="!$store.state.Resume1.length">
+    <div data-aos="slide-up" v-if="!$store.state.Resume1.length">
           <spinner/>
         </div>
         <div v-else>
           <div class="row">
-    <div class="col">
+    <div data-aos="slide-left" class="col">
       <div class="info">
         <div v-for="Resume2 in $store.state.Resume2" :key="Resume2" >
 
@@ -79,7 +79,7 @@
 </div>
 </div>
 
-<div class="col">
+<div data-aos="slide-right" class="col">
     <div class="info">
         
         <div v-for="Resume3 in $store.state.Resume3" :key="Resume3">
@@ -110,7 +110,7 @@
 </template>
 <script>
 import spinner from '@/components/spinner.vue'
-
+import aos from 'aos'
 export default {
 
   components:{
@@ -135,6 +135,10 @@ export default {
         this.fetchDataResume1
         this.fetchDataResume2
         this.fetchDataResume3
+        aos.init({
+      duration:800,
+      once:false
+    })
     }
     
     
@@ -210,12 +214,12 @@ export default {
     text-align: center;
   }
 
-#Body{
+/* #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 98vh;
-}  
+}   */
 
 h1{
     font-weight: 20;

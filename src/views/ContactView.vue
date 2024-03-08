@@ -1,6 +1,6 @@
 <template>
     <body id="Body">
-        <div id="Contact">
+        <div data-aos="slide-up" id="Contact">
           <h6>
             <ul id="Labels">
               <li id="Lett">C</li>
@@ -18,7 +18,7 @@
 
           <div class="container">
   <div class="row">
-    <div id="form" class="col">
+    <div data-aos="slide-left" id="form" class="col">
             <form
                 action="https://formspree.io/f/mbjvblqe"
                 method="POST">
@@ -40,7 +40,7 @@
             </form>
     </div>
 
-    <div class="col">
+    <div data-aos="slide-up" class="col">
       <div class="info">
         <div class="address">
             <h4><i class="fa-solid fa-location-dot fa-beat fa-sm" style="color: #ff0000;"></i>  Location:</h4>
@@ -59,7 +59,7 @@
      </div>
     </div>
 
-        <div class="col">
+        <div data-aos="slide-right" class="col">
            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13976.628775938227!2d18.519500816663516!3d-33.9845828687912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44a09405e363%3A0x4081dcad83358dc9!2s80%20Gamsa%20St%2C%20Penlyn%20Estate%2C%20Cape%20Town%2C%207780!5e0!3m2!1sen!2sza!4v1704886672216!5m2!1sen!2sza" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
@@ -72,7 +72,14 @@
     
 </template>
 <script>
+import aos from 'aos'
 export default {
+  mounted(){
+      aos.init({
+      duration:1500,
+      once:false
+    })
+  }
     
 }
 </script>
@@ -201,6 +208,7 @@ input[type="submit"]:hover {
   color: #000;
   font-size: larger;
 }
+
 h4{
     color: black !important;
     text-shadow:0 0 2px #03e9f4,
@@ -208,6 +216,7 @@ h4{
                 0 0 2px #03e9f4,
                 0 0 2px #03e9f4;
 }
+
 p{
     margin-top: 50px !important;
     color: whitesmoke !important;

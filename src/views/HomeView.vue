@@ -2,7 +2,7 @@
 
   <body id="Body">
 
-    <div id="INTRO" class="intro">
+    <div data-aos="slide-up, slide-down" id="INTRO" class="intro">
         <div class="container">
           <!-- <img id="j" class="img-fluid" src="https://i.postimg.cc/LsHjr3Ph/Profile-Pic.jpg" alt=""> -->
         </div>
@@ -19,10 +19,10 @@
         </h6>
         <h3>I AM AN ASPIRING FULL STACK DEVELOPER</h3>
 
-        <div class="row">
+        <div data-aos="fade-up" class="row">
           <div class="col">
 
-        <div class="center-container">
+        <div data-aos="fade-up" class="center-container">
           <a href="/projects">
           <button class="center-button">MY WORK</button>
         </a>
@@ -31,7 +31,7 @@
           <button class="center-button">CONTACT</button>
         </a> 
 
-          <div class="icon-container">
+          <div data-aos="fade-up" class="icon-container">
             
           <a href="https://www.facebook.com/tauha.shaik.5/" target="_blank">
             <i id="icn" class="fa-brands fa-facebook fa-bounce fa-2xl"></i>
@@ -47,7 +47,7 @@
           </div>   
         </div>
           </div>
-          <div class="col">
+          <div data-aos="fade-up" class="col">
             <img id="j" src="https://i.postimg.cc/LsHjr3Ph/Profile-Pic.jpg" alt="">
           </div>
         </div>
@@ -58,8 +58,14 @@
 
 </template>
 <script>
+import aos from 'aos'
 export default {
-  
+  mounted(){
+    aos.init({
+      duration:800, 
+      once: false
+    })
+  }
 }
 </script>
 <style scoped>
@@ -219,7 +225,7 @@ export default {
 
 
 @media only screen and (max-width: 300px) {
-  .responsive-container {
+.responsive-container {
     font-size: 14px;
   }
 }

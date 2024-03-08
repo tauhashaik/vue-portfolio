@@ -1,7 +1,7 @@
 <template>
 
 <body id="Body">
-    <div id="SKILLS">
+    <div data-aos="slide-up" id="SKILLS">
       <h6>
         <ul id="Labels">
           <li id="Lett">S</li>
@@ -57,10 +57,10 @@
             <h2>(BEGINNER)</h2>
           </div>
         </div> -->
-    <div class="row row-cols-1 row-cols-md-3 g-4"><div v-for="Skill in $store.state.Skills" :key="Skill" class="container text-center">
-        <div class="row">
+    <div  class="row row-cols-1 row-cols-md-3 g-4"><div v-for="Skill in $store.state.Skills" :key="Skill" class="container text-center">
+        <div data-aos="slide-up" class="row">
           <div class="col">
-            <img id="Slogo" :src="Skill.image" alt="">
+            <img  id="Slogo" :src="Skill.image" alt="">
             <h2>{{ Skill.Heading }}</h2>
             <h2>{{ Skill.Subheading }}</h2>
           </div>
@@ -74,6 +74,7 @@
     
 </template>
 <script>
+import aos from 'aos'
 export default {
 
   computed:{
@@ -83,18 +84,22 @@ export default {
     },
     mounted(){
         this.fetchDataSkills
+        aos.init({
+      duration:1500,
+      once:false
+    })
     }
     
 }
 </script>
 <style scoped>
 
-#Body{
+/* #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 130vh !important;
-}
+} */
 
 
 #INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
