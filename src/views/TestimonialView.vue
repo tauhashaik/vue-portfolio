@@ -1,7 +1,7 @@
 <template>
    <body id="Body">
 
-    <div id="Testimonial">
+    <div data-aos="slide-up" id="Testimonial">
         <h6>
           <ul id="Labels">
             <li id="Lett">T</li>
@@ -85,11 +85,11 @@
                 </div>
               </div> -->
 
-              <div v-if="!$store.state.Testimonials.length">
+              <div data-aos="slide-up" v-if="!$store.state.Testimonials.length">
           <spinner/>
         </div>
           <div v-else>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div data-aos="slide-up" class="row row-cols-1 row-cols-md-3 g-4">
                 <div v-for="Testimonial in $store.state.Testimonials" :key="Testimonial" class="containerT">
                     <div class="card">
                     <div class="img-container">
@@ -110,7 +110,7 @@
 </template>
 <script>
 import spinner from '@/components/spinner.vue'
-
+import aos from 'aos'
 export default {
     
     computed:{
@@ -119,7 +119,11 @@ export default {
         }
     },
     mounted(){
-        this.fetchDataTestimonials
+        this.fetchDataTestimonials,
+        aos.init({
+      duration:1500,
+      once:false
+    })
     },
     components:{
       spinner

@@ -1,6 +1,6 @@
 <template>
 <body id="Body">
-  <div id="ABOUT">
+  <div data-aos="slide-up" id="ABOUT">
         <h6>
           <ul id="Labels">
             <li id="Lett">A</li>
@@ -12,12 +12,12 @@
             <li id="Lett">ME</li>
           </ul>
         </h6>
-        <div class="container">
+        <div data-aos="slide-right" class="container">
           <div class="row text-center">
             <div class="col-md-5 order-first">
               <img id="j" src="https://i.postimg.cc/LsHjr3Ph/Profile-Pic.jpg" class="img-fluid rounded-5 my-auto mb-5" alt="">
             </div>
-            <div id="abtBox" class="col-md-7 col-sm-12 my-auto text-center text-lg-start">
+            <div data-aos="slide-left" id="abtBox" class="col-md-7 col-sm-12 my-auto text-center text-lg-start">
               <h3 id="abth3">Hi, I am <span class="border-bottom border-white border-2">Tauha Hoosain Shaik</span></h3>
                 <p id="abtP" class="fs-5">
                 I am a hardworking individual that strives for constant improvement through diligence and the drive to learn.
@@ -36,8 +36,15 @@
 
 </template>
 <script>
+import aos from 'aos'
 export default {
-  
+  mounted(){
+    aos.init({
+      duration:1500,
+      once:false
+    })
+
+  }
 }
 </script>
 <style scoped>

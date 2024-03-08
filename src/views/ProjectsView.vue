@@ -2,7 +2,7 @@
 
 <body id="Body">
 
-    <div id="PROJECT">
+    <div data-aos="slide-up" id="PROJECT">
         <h6>
           <ul id="Labels">
             <li id="Lett">P</li>
@@ -78,14 +78,14 @@
           </div>
           
         </div> -->
-        <div v-if="!$store.state.Projects.length">
+        <div data-aos="slide-up" v-if="!$store.state.Projects.length">
           <spinner/>
         </div>
         <div v-else>
-          <div class="container">
+          <div data-aos="slide-up" class="container">
             <div v-for="Project in $store.state.Projects" :key="Project" class="box">
               <span></span>
-              <div class="content">
+              <div data-aos="slide-up" class="content">
                 <h2>{{Project.Project}}</h2>
                 <p>{{ Project.Description }}</p>
                 <img id="projP" :src="Project.image" alt="">
@@ -103,7 +103,7 @@
 </template>
 <script>
 import spinner from '@/components/spinner.vue'
-
+import aos from 'aos'
 export default {
     computed:{
         fetchDataProjects(){
@@ -111,7 +111,11 @@ export default {
         }
     },
     mounted(){
-        this.fetchDataProjects
+        this.fetchDataProjects,
+        aos.init({
+      duration:1500,
+      once:false
+    })
     },
 
     components:{
