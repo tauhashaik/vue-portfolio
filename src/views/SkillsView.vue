@@ -94,12 +94,12 @@ export default {
 </script>
 <style scoped>
 
-/* #Body{
+#Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 130vh !important;
-} */
+}
 
 
 #INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
