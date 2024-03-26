@@ -1,6 +1,6 @@
 <template>
-
-<body id="Body">
+<section>
+  <div id="Body">
 
     <div data-aos="slide-up" id="PROJECT">
         <h6>
@@ -97,7 +97,9 @@
 
     </div>
 
-</body>
+  </div>
+
+</section>
 
     
 </template>
@@ -197,6 +199,7 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 166vh;
 }
 .container

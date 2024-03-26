@@ -1,5 +1,6 @@
 <template>
-    <body id="Body">
+  <section>
+     <body id="Body">
         <div data-aos="slide-up" id="Contact">
           <h6>
             <ul id="Labels">
@@ -69,6 +70,8 @@
  </div>
 </div>
     </body>
+  </section>
+   
     
 </template>
 <script>
@@ -157,6 +160,7 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 115vh;
 }
 

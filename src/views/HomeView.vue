@@ -1,6 +1,6 @@
 <template>
-
-  <body id="Body">
+  <section>
+     <div id="Body">
 
     <div data-aos="slide-up, slide-down" id="INTRO" class="intro">
         <div class="container">
@@ -19,7 +19,7 @@
         </h6>
         <h3>I AM AN ASPIRING FULL STACK DEVELOPER</h3>
 
-        <div data-aos="fade-up" class="row">
+        <div id="homeCont" data-aos="fade-up" class="row">
           <div class="col">
 
         <div data-aos="fade-up" class="center-container">
@@ -54,7 +54,9 @@
         
       </div>
     
-  </body>
+    </div>
+  </section>
+ 
 
 </template>
 <script>
@@ -69,6 +71,10 @@ export default {
 }
 </script>
 <style scoped>
+
+#homeCont{
+  margin-left: 120px
+}
 
 .fa-brands{
   color: #000;
@@ -191,20 +197,23 @@ export default {
   }
 
   #j{
-    margin-top: 50px;
+   margin-top: 50px;
   width: 300px;
   height: 300px;
+  border: solid 3px rgb(255, 255, 255);
+  border-radius: 12px;
   /* display: flex; */
   justify-content: center;
   opacity: 0.7;
 }
 
-#Body{
+/* #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
-}
+} */
 
 .icon-container {
   margin-top: 20px;

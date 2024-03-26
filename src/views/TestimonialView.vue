@@ -1,5 +1,6 @@
 <template>
-   <body id="Body">
+  <section>
+     <div id="Body">
 
     <div data-aos="slide-up" id="Testimonial">
         <h6>
@@ -106,7 +107,9 @@
 
           </div>
               
-   </body>
+        </div>
+  </section>
+  
 </template>
 <script>
 import spinner from '@/components/spinner.vue'
@@ -142,6 +145,7 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 143vh;
 }
 

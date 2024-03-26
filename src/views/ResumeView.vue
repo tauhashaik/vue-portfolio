@@ -1,5 +1,6 @@
-<template lang="">
-    <body id="Body">
+<template>
+  <section>
+     <div id="Body">
         
     <div data-aos="slide-up" id="WORK">
         <h6>
@@ -54,12 +55,12 @@
 
     </div> -->
 
-    <div data-aos="slide-up" v-if="!$store.state.Resume1.length">
+    <div  data-aos="slide-up" v-if="!$store.state.Resume1.length">
           <spinner/>
         </div>
         <div v-else>
           <div class="row">
-    <div data-aos="slide-left" class="col">
+    <div id="work" data-aos="slide-left" class="col">
       <div class="info">
         <div v-for="Resume2 in $store.state.Resume2" :key="Resume2" >
 
@@ -79,13 +80,13 @@
 </div>
 </div>
 
-<div data-aos="slide-right" class="col">
+<div id="work2" data-aos="slide-right" class="col">
     <div class="info">
         
         <div v-for="Resume3 in $store.state.Resume3" :key="Resume3">
 
 <h3>{{Resume3.Title}}</h3>
-
+<br>
 <div>
 <ul>
     <li> 
@@ -106,7 +107,9 @@
 
      
 
-    </body>
+      </div>
+  </section>
+   
 </template>
 <script>
 import spinner from '@/components/spinner.vue'
@@ -150,6 +153,13 @@ export default {
   padding-top: 100px !important;
 }
 
+#work{
+  margin-left: 70px !important;
+  padding-top: 30px;
+}
+#work2{
+  padding-top: 30px;
+}
 
 #Labels {
     list-style: none;
@@ -218,6 +228,7 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 98vh;
 }  
 
@@ -256,24 +267,24 @@ h5{
     text-transform: uppercase;
     transition: 0.5s;
     /* color: black; */
-    text-shadow:0 0 2px #03e9f4,
+    /* text-shadow:0 0 2px #03e9f4,
                 0 0 2px #03e9f4,
                 0 0 2px #03e9f4,
-                0 0 2px #03e9f4;
+                0 0 2px #03e9f4; */
 }
 
 p{
-    font-weight: 20;
-    color: white;
+    font-weight: 50;
+    color: rgb(255, 255, 255);
     letter-spacing: 5px;
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
     /* color: black; */
-    text-shadow:0 0 5px #000000,
-                0 0 5px #000000,
-                0 0 5px #000000,
-                0 0 5px #000000;
+    text-shadow:0 0 10px #000000,
+                0 0 10px #000000,
+                0 0 10px #000000,
+                0 0 10px #000000;
 }
 
 

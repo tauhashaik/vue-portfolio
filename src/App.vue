@@ -1,14 +1,19 @@
 <template>
  <!-- <navbar/> -->
- <HomeView/>
- <AboutView/>
- <ResumeView/>
- <SkillsView/>
- <ProjectsView/>
- <TestimonialView/>
- <ContactView/>
- <!-- <router-view/> -->
- <footer/>
+ <div id="Body" >
+   <HomeView/>
+   <br>
+   <br>
+   <br><br>
+   <AboutView/>
+   <ResumeView/>
+   <SkillsView />
+   <ProjectsView />
+   <TestimonialView />
+   <ContactView />
+   <!-- <router-view/> -->
+   <footer/>
+ </div>
 </template>
 
 <script>
@@ -46,5 +51,12 @@ export default{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+#Body{
+  background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 113vh;
 }
 </style>
