@@ -218,8 +218,9 @@ export default {
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 98vh;
-}   */
+} */
 
 h1{
     font-weight: 20;

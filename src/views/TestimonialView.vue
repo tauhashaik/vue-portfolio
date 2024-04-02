@@ -138,12 +138,13 @@ export default {
   padding-top: 100px !important;
 }
 
-#Body{
+/* #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 143vh;
-}
+} */
 
 .containerT,.containerM{
   max-width:auto;

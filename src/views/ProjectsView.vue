@@ -193,12 +193,13 @@ export default {
     text-align: center;
   }
 
-#Body{
+/* #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 166vh;
-}
+} */
 .container
 {
   display: flex;

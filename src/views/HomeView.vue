@@ -199,12 +199,13 @@ export default {
   opacity: 0.7;
 }
 
-#Body{
+/* #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
-}
+} */
 
 .icon-container {
   margin-top: 20px;

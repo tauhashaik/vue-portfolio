@@ -27,7 +27,7 @@
                 with groups of people and assume leadership roles when necessary.
               </p>
             </div>
-              
+            
             </div>
           </div>
   </div>
@@ -53,12 +53,13 @@ export default {
   padding-top: 90px !important;
 }
 
-#Body{
+/* #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh !important;
-}
+  background-attachment: fixed;
+  height: 100vh;
+} */
 
  #j{
   width: 350px;

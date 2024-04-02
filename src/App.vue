@@ -1,6 +1,6 @@
 <template>
  <!-- <navbar/> -->
- <HomeView/>
+  <HomeView/>
  <AboutView/>
  <ResumeView/>
  <SkillsView/>
@@ -9,6 +9,7 @@
  <ContactView/>
  <!-- <router-view/> -->
  <footer/>
+ 
 </template>
 
 <script>
