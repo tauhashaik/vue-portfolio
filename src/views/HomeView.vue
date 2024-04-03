@@ -6,17 +6,21 @@
         <div class="container">
           <!-- <img id="j" class="img-fluid" src="https://i.postimg.cc/LsHjr3Ph/Profile-Pic.jpg" alt=""> -->
         </div>
-        <h6>
-          <ul id="Labels">
-            <li id="Lett">W</li>
-            <li id="Lett">E</li>
-            <li id="Lett">L</li>
-            <li id="Lett">C</li>
-            <li id="Lett">O</li>
-            <li id="Lett">M</li>
-            <li id="Lett">E</li>
-          </ul>
-        </h6>
+        
+         <center>
+              <h2 id="Labels">
+                <span style="--index: 0">W</span>
+                <span style="--index: 1">E</span>
+                <span style="--index: 2">L</span>
+                <span style="--index: 3">C</span>
+                <span style="--index: 4">O</span>
+                <span style="--index: 5">M</span>
+                <span style="--index: 6">E</span>
+                <span style="--index: 7">!</span>
+              </h2>
+         </center> 
+          
+
         <h3>I AM AN ASPIRING FULL STACK DEVELOPER</h3>
 
         <div data-aos="fade-up" class="row">
@@ -145,6 +149,40 @@ export default {
   #Labels{
     text-align: center;
   }
+
+  h2 {
+  display: inline-flex;
+  color: #ffffff;
+  font-size: 130px;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+h2 span {
+  text-shadow: 0px 0px 2px #ffffff, 1px 1px 4px rgba(0, 0, 0, 0.7);
+  animation: smoke 0.9s linear backwards;
+  animation-delay: calc(0.1s * var(--index));
+}
+
+/* Let's create animation */
+@keyframes smoke {
+  0% {
+    color: transparent;
+    opacity: 0;
+    text-shadow: 0px 0px 100px #ffffff;
+  }
+  90% {
+    color: transparent;
+    opacity: 0.9;
+    text-shadow: 0px 0px 10px #ffffff;
+  }
+  100% {
+    color: #ffffff;
+    opacity: 1;
+    text-shadow: 0px 0px 2px #ffffff, 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+}
+
   h3{
     margin-top: 50px !important;
     color: black !important;
@@ -156,13 +194,13 @@ export default {
     font-weight: bold;
     transition: 0.5s;
   }
-  h3:hover{
+  /* h3:hover{
     color: black !important;
     text-shadow:0 0 2px #03e9f4,
                 0 0 2px #03e9f4,
                 0 0 2px #03e9f4,
                 0 0 2px #03e9f4;
-  }
+  } */
 
   .center-container {
     display:flex;
@@ -199,13 +237,13 @@ export default {
   opacity: 0.7;
 }
 
-/* #Body{
+#Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
-} */
+}
 
 .icon-container {
   margin-top: 20px;

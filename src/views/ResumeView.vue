@@ -61,7 +61,7 @@
           <div class="row">
     <div data-aos="slide-left" class="col">
       <div class="info">
-        <div v-for="Resume2 in $store.state.Resume2" :key="Resume2" >
+        <div id="content" v-for="Resume2 in $store.state.Resume2" :key="Resume2" >
 
     <h3>{{Resume2.Title}}</h3>
     <br>
@@ -82,16 +82,16 @@
 <div data-aos="slide-right" class="col">
     <div class="info">
         
-        <div v-for="Resume3 in $store.state.Resume3" :key="Resume3">
+        <div id="content2" v-for="Resume3 in $store.state.Resume3" :key="Resume3">
 
 <h3>{{Resume3.Title}}</h3>
 
 <div>
 <ul>
     <li> 
-        <h5>{{Resume3.Education}}</h5>
-        <p>{{Resume3.Education2}}</p>
-        <p>{{Resume3.Education3}}</p>
+      <p>{{Resume3.Education3}}</p>
+      <p>{{Resume3.Education2}}</p>
+        <p>{{Resume3.Education}}</p>
     </li>
 </ul>
 </div>
@@ -148,6 +148,14 @@ export default {
 
 #INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
   padding-top: 100px !important;
+}
+
+#content{
+  margin-left: 80px !important;
+}
+
+#content2{
+  margin-left: 30px !important;
 }
 
 
@@ -214,13 +222,13 @@ export default {
     text-align: center;
   }
 
-/* #Body{
+#Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 98vh;
-} */
+}
 
 h1{
     font-weight: 20;
@@ -238,6 +246,7 @@ h1{
 
 h3{
     font-weight: 20;
+    font-family: "Audiowide";
     color: white;
     letter-spacing: 5px;
     cursor: pointer;
@@ -251,6 +260,7 @@ h3{
 }
 h5{
     font-weight: 20;
+    font-family: "Audiowide";
     color: white;
     letter-spacing: 5px;
     cursor: pointer;
@@ -270,6 +280,7 @@ p{
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
+    font-family: "Audiowide";
     /* color: black; */
     text-shadow:0 0 5px #000000,
                 0 0 5px #000000,
