@@ -4,12 +4,23 @@
     <div data-aos="slide-up" id="WORK">
         <h6>
             <ul id="Labels">
-                <li id="Lett">R</li>
                 <li id="Lett">E</li>
-                <li id="Lett">S</li>
+                <li id="Lett">D</li>
                 <li id="Lett">U</li>
-                <li id="Lett">M</li>
-                <li id="Lett">E</li>
+                <li id="Lett">C</li>
+                <li id="Lett">A</li>
+                <li id="Lett">T</li>
+                <li id="Lett">I</li>
+                <li id="Lett">O</li>
+                <li id="Lett">N</li>
+                <li id="Lett">/</li>
+                <li id="Lett">W</li>
+                <li id="Lett">O</li>
+                <li id="Lett">R</li>
+                <li id="Lett">K</li>
+                <li id="Lett">-</li>
+                <li id="Lett">X</li>
+                <li id="Lett">P</li>
             </ul>
         </h6>
      </div>
@@ -148,6 +159,7 @@ export default {
 
 #INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
   padding-top: 100px !important;
+  padding-bottom: 20px !important;
 }
 
 #content{
@@ -218,6 +230,30 @@ export default {
   #Labels #Lett:nth-child(11) {
     transition-delay: 4.2s;
   }
+  #Labels #Lett:nth-child(12) {
+    transition-delay: 4.4s;
+  }
+  #Labels #Lett:nth-child(13) {
+    transition-delay: 4.6s;
+  }
+  #Labels #Lett:nth-child(14) {
+    transition-delay: 4.8s;
+  }
+  #Labels #Lett:nth-child(15) {
+    transition-delay: 5.0s;
+  }
+  #Labels #Lett:nth-child(16) {
+    transition-delay: 5.2s;
+  }
+  #Labels #Lett:nth-child(17) {
+    transition-delay: 5.4s;
+  }
+  #Labels #Lett:nth-child(18) {
+    transition-delay: 5.6s;
+  }
+  #Labels #Lett:nth-child(19) {
+    transition-delay: 5.8s;
+  }
   #Labels{
     text-align: center;
   }
@@ -227,7 +263,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 98vh;
+  height: 112vh;
 }
 
 h1{
@@ -247,7 +283,7 @@ h1{
 h3{
     font-weight: 20;
     font-family: "Audiowide";
-    color: white;
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
     cursor: pointer;
     text-transform: uppercase;
@@ -261,7 +297,7 @@ h3{
 h5{
     font-weight: 20;
     font-family: "Audiowide";
-    color: white;
+    color: rgb(0, 0, 0);
     letter-spacing: 5px;
     cursor: pointer;
     text-transform: uppercase;

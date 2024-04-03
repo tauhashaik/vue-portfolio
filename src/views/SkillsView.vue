@@ -12,6 +12,9 @@
           <li id="Lett">S</li>
         </ul>
       </h6>
+      <br>
+      <br>
+      <br>
 
       <!-- <div class="container text-center">
         <div class="row">
@@ -62,7 +65,6 @@
           <div class="col">
             <img  id="Slogo" :src="Skill.image" alt="">
             <h2>{{ Skill.Heading }}</h2>
-            <h2>{{ Skill.Subheading }}</h2>
           </div>
         </div>
       </div>
@@ -94,13 +96,13 @@ export default {
 </script>
 <style scoped>
 
-/* #Body{
+#Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 130vh !important;
-} */
+  height: 133vh !important;
+}
 
 
 #INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{

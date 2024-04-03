@@ -85,7 +85,7 @@
           <div data-aos="slide-up" class="container">
             <div v-for="Project in $store.state.Projects" :key="Project" class="box">
               <span></span>
-              <div data-aos="slide-up" class="content">
+              <div id="content" data-aos="slide-up" class="content">
                 <h2>{{Project.Project}}</h2>
                 <p>{{ Project.Description }}</p>
                 <img id="projP" :src="Project.image" alt="">
@@ -128,6 +128,24 @@ export default {
 
 #INTRO, #ABOUT, #WORK, #SKILLS, #PROJECT, #Testimonial, #Contact{
   padding-top: 100px !important;
+}
+
+#content{
+  height:400px
+}
+
+h2{
+  text-shadow:0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000
+}
+
+p{
+  text-shadow:0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000
 }
 
 #Labels {
@@ -193,13 +211,13 @@ export default {
     text-align: center;
   }
 
-/* #Body{
+#Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 166vh;
-} */
+}
 .container
 {
   display: flex;
@@ -218,7 +236,8 @@ export default {
   justify-content: center;
   align-items: center;
   margin: 40px 30px;
-  transition: 0.5s;
+  transition: 0.5s ease;
+
 }
 
 .container .box::before
@@ -233,7 +252,7 @@ export default {
   background: #fff;
   border-radius: 8px;
   transform: skewX(15deg);
-  transition: 0.5s;
+  transition: 0.5s ease;
 }
 
 .container .box::after
@@ -247,7 +266,7 @@ export default {
   background: #fff;
   border-radius: 8px;
   transform: skewX(15deg);
-  transition: 0.5s;
+  transition: 0.5s ease;
   filter: blur(30px);
 }
 
@@ -263,34 +282,34 @@ export default {
 .container .box:nth-child(1):before,
 .container .box:nth-child(1):after
 {
-  background: linear-gradient(315deg, #ffbc00, #ff0058)
+  background: linear-gradient(315deg, #000000, #03e9f4, #000000)
 }
 
 .container .box:nth-child(2):before,
 .container .box:nth-child(2):after
 {
-  background: linear-gradient(315deg, #03a9f4, #ff0058)
+  background: linear-gradient(315deg, #000000, #03e9f4, #000000)
 }
 
 .container .box:nth-child(3):before,
 .container .box:nth-child(3):after
 {
-  background: linear-gradient(315deg, #4dff03, #00d0ff)
+  background: linear-gradient(315deg, #000000, #03e9f4, #000000)
 }
 .container .box:nth-child(4):before,
 .container .box:nth-child(4):after
 {
-  background: linear-gradient(315deg, #ff0058, #ffbc00)
+  background: linear-gradient(315deg, #000000, #03e9f4, #000000)
 }
 .container .box:nth-child(5):before,
 .container .box:nth-child(5):after
 {
-  background: linear-gradient(315deg, #ff0058, #03a9fa)
+  background: linear-gradient(315deg, #000000, #03e9f4, #000000)
 }
 .container .box:nth-child(6):before,
 .container .box:nth-child(6):after
 {
-  background: linear-gradient(315deg, #4dff00, #fa03f6)
+  background: linear-gradient(315deg, #000000, #03e9f4, #000000)
 }
 
 .container .box span
