@@ -147,7 +147,7 @@ export default {
         this.fetchDataResume2
         this.fetchDataResume3
         aos.init({
-      duration:800,
+      duration:1500,
       once:false
     })
     }

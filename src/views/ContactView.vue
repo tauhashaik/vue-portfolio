@@ -44,24 +44,24 @@
       <div class="info">
         <div class="address">
             <h4><i class="fa-solid fa-location-dot fa-beat fa-sm" style="color: #ff0000;"></i>  Location:</h4>
-           <a href=""><p>Western Cape, 80 Gamsa Street, Penlyn Estate 7764</p></a> 
+           <a href="https://maps.app.goo.gl/t8LEn9wcq1rA4kGg6" target="_blank"><p>Cape Town, Western Cape, Penlyn Estate</p></a> 
         </div>
 
         <div class="email">
             <h4><i class="fa-regular fa-envelope fa-beat fa-sm" style="color: #000000;"></i>  Email:</h4>
-            <a href=""><p>hoosains19@gmail.com</p></a>
+            <a href="mailto:hoosains19@gmail.com" target="_blank"><p>hoosains19@gmail.com</p></a>
         </div>
 
         <div class="phone">
             <h4><i class="fa-solid fa-mobile-screen-button fa-beat fa-sm" style="color: #ffffff;"></i>  Call:</h4>
-            <a href=""><p>+27 71 5444 231</p></a>
+            <a href="tel:+0715444231" target="_blank"><p>+27 71 5444 231</p></a>
         </div>
      </div>
+     
     </div>
 
         <div data-aos="slide-right" class="col">
-           <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13976.628775938227!2d18.519500816663516!3d-33.9845828687912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44a09405e363%3A0x4081dcad83358dc9!2s80%20Gamsa%20St%2C%20Penlyn%20Estate%2C%20Cape%20Town%2C%207780!5e0!3m2!1sen!2sza!4v1704886672216!5m2!1sen!2sza" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+          <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12578.935345956343!2d18.50113426861868!3d-33.98142796458845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc435f4f599ccb%3A0x7c397b1543a5766d!2sPenlyn%20Estate%2C%20Cape%20Town%2C%207780!5e1!3m2!1sen!2sza!4v1712214940977!5m2!1sen!2sza" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
   </div>
 
@@ -153,13 +153,13 @@ export default {
     text-align: center;
   }
   
-  /* #Body{
+  #Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 115vh;
-} */
+}
 
 form {
   width: 300px;

@@ -37,39 +37,39 @@
 
     <nav class="navbar fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img id="Logo" src="https://i.postimg.cc/bwcSk9Nd/Taha-Logo-2.png"></a>
-          <h1 class="navHead active">Tauha-Hoosain-Shaik</h1>
+          <a class="navbar-brand" href="#"><img id="Logo" src="https://i.ibb.co/Z2N7ShV/New-Logo.png"></a>
+          <h1 id="navTitle" class="navHead active">Tauha-Hoosain-Shaik</h1>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img id="Logo" src="https://i.postimg.cc/bwcSk9Nd/Taha-Logo-2.png"></h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img id="Logo" src="https://i.ibb.co/Z2N7ShV/New-Logo.png"></h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="nav justify-content-center">
         <li class="nav-item">
-          <router-link id="navText" class="nav-link active" aria-current="page" to="/">Home</router-link>
+          <router-link id="navText" class="nav-link active" aria-current="page" to="/" @click="scrollToIntro" >Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link id="navText" class="nav-link active" to="/about">About</router-link>
+          <router-link id="navText" class="nav-link active" to="/" @click="scrollToAbout" >About</router-link>
         </li>
         <li class="nav-item">
-          <router-link id="navText" class="nav-link active" to="/resume">Resume</router-link>
+          <router-link id="navText" class="nav-link active" to="/resume" @click="scrollToResume" >Resume</router-link>
         </li>
         <li class="nav-item">
-          <router-link id="navText" class="nav-link active" to="/skills">Skills</router-link>
+          <router-link id="navText" class="nav-link active" to="/skills" @click="scrollToSkills" >Skills</router-link>
         </li>
         <li class="nav-item">
-          <router-link id="navText" class="nav-link active" to="/projects">Projects</router-link>
+          <router-link id="navText" class="nav-link active" to="/projects" @click="scrollToProjects">Projects</router-link>
         </li>
         <li class="nav-item">
-          <router-link  id="navText" class="nav-link active" to="/testimonial">Testimonials</router-link>
+          <router-link  id="navText" class="nav-link active" to="/testimonial" @click="scrollToTestimonials">Peer-Reviews</router-link>
         </li>
         <li class="nav-item">
-          <router-link id="navText" class="nav-link active" to="/contact">Contact</router-link>
+          <router-link id="navText" class="nav-link active" to="/contact" @click="scrollToContact">Contact</router-link>
         </li>
       </ul>
             </div>
@@ -81,6 +81,31 @@
 </template>
 <script>
 export default {
+
+  methods:{
+    scrollToContact(){
+      document.getElementById("Testimonial").scrollIntoView({behaviour: 'smooth'});
+    },
+    scrollToProjects(){
+      document.getElementById("SKILLS").scrollIntoView({behaviour: 'smooth'});
+    },
+    scrollToAbout(){
+      document.getElementById("ABOUT").scrollIntoView({behaviour: 'smooth'});
+    },
+    scrollToIntro(){
+      document.getElementById("INTRO").scrollIntoView({behaviour: 'smooth'});
+    },
+    scrollToResume(){
+      document.getElementById("WORK").scrollIntoView({behaviour: 'smooth'});
+    },
+    scrollToSkills(){
+      document.getElementById("SKILLS").scrollIntoView({behaviour: 'smooth'});
+    },
+    scrollToTestimonials(){
+      document.getElementById("Testimonial").scrollIntoView({behaviour: 'smooth'});
+    },
+    
+  },
     
 }
 </script>
@@ -126,7 +151,13 @@ ul{
     height: 70px;
 }
 
-
+#navTitle{
+  color: black;
+    text-shadow:0 0 2px #03e9f4,
+                0 0 2px #03e9f4,
+                0 0 2px #03e9f4,
+                0 0 2px #03e9f4;
+}
 
 
 

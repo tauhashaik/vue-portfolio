@@ -1,5 +1,5 @@
 <template>
- <!-- <navbar/> -->
+ <navbar/>
   <HomeView/>
  <AboutView/>
  <ResumeView/>
@@ -22,7 +22,6 @@ import SkillsView from './views/SkillsView.vue';
 import ProjectsView from './views/ProjectsView.vue';
 import TestimonialView from './views/TestimonialView.vue';
 import ContactView from './views/ContactView.vue';
-
 export default{
   
   components:{
@@ -34,7 +33,7 @@ export default{
     SkillsView,
     ProjectsView,
     TestimonialView,
-    ContactView
+    ContactView,
 
   }
 }

@@ -4,17 +4,18 @@
     <div data-aos="slide-up" id="Testimonial">
         <h6>
           <ul id="Labels">
-            <li id="Lett">T</li>
+            <li id="Lett">P</li>
             <li id="Lett">E</li>
-            <li id="Lett">S</li>
-            <li id="Lett">T</li>
-            <li id="Lett">I</li>
-            <li id="Lett">M</li>
-            <li id="Lett">O</li>
-            <li id="Lett">N</li>
+            <li id="Lett">E</li>
+            <li id="Lett">R</li>
+            <li id="Lett">-</li>
+            <li id="Lett">R</li>
+            <li id="Lett">E</li>
+            <li id="Lett">V</li>
             <li id="Lett">I</li> 
-            <li id="Lett">A</li>
-            <li id="Lett">L</li>
+            <li id="Lett">E</li>
+            <li id="Lett">W</li>
+            <li id="Lett">S</li>
           </ul>
         </h6>
 
@@ -138,13 +139,13 @@ export default {
   padding-top: 100px !important;
 }
 
-/* #Body{
+#Body{
   background-image: url(https://i.postimg.cc/05XpMSwJ/6004798.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 143vh;
-} */
+}
 
 .containerT,.containerM{
   max-width:auto;
@@ -297,6 +298,9 @@ export default {
   }
   #Labels #Lett:nth-child(11) {
     transition-delay: 4.2s;
+  }
+  #Labels #Lett:nth-child(12) {
+    transition-delay: 4.4s;
   }
   #Labels{
     text-align: center;
