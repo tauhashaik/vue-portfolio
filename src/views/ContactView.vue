@@ -234,6 +234,7 @@ p{
     margin-top: 80px;
 }
 
+
 @media only screen and (max-width: 720px) {
 
   #Body {
@@ -262,14 +263,18 @@ p{
 
   #map {
     margin-top: 30px;
+    /* margin-left: 80px */
   }
-
   .info {
     margin-top: 30px;
   }
 }
 
 @media only screen and (max-width: 300px) {
+
+  #Body{
+    height: 230vh;
+  }
 
   #Labels {
     font-size: 30px;
@@ -278,6 +283,10 @@ p{
   input[type="submit"] {
     padding: 8px 30px;
     font-size: medium;
+  }
+
+  #map{
+    width: 280px;
   }
 }
 </style>

@@ -163,11 +163,11 @@ export default {
 }
 
 #content{
-  margin-left: 80px !important;
+  margin-left: 80px;
 }
 
 #content2{
-  margin-left: 30px !important;
+  margin-left: 30px ;
 }
 
 
@@ -263,7 +263,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 112vh;
+  height: 115vh;
 }
 
 h1{
@@ -324,10 +324,17 @@ p{
                 0 0 5px #000000;
 }
 
-
-/* Your existing styles */
+@media only screen and (max-width: 1080px) {
+  #Body{
+    height: 150vh;
+  }
+}
 
 @media only screen and (max-width: 720px) {
+
+  #Body {
+     height: 200vh;
+    }
 
   #Labels {
     font-size: 40px;
@@ -340,12 +347,20 @@ p{
 
 @media only screen and (max-width: 300px) {
 
+
+  #Body {
+     height: 200vh;
+    }
+
   #Labels {
     font-size: 30px; 
   }
+  #content{
+  margin-left: 0px;
+}
 
-  h1, h3, h5, p {
-    font-size: 14px;
-  }
+#content2{
+  margin-left: 0px ;
+}
 }
 </style>

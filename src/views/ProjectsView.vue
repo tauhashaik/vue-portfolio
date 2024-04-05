@@ -455,5 +455,33 @@ p{
   filter: opacity(0.7);
 }
 
-    
+@media only screen and (max-width: 1080px) {
+  #Body{
+    height: 260vh;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+
+  #Body{
+    height:490vh !important;
+  }
+
+}
+
+@media only screen and (max-width: 300px) {
+
+  #Body {
+     height: 490vh;
+    }
+   #content{
+    width: 300px
+   }
+   #links{
+    margin: 10px;
+   }
+   #projP{
+    width: 210px
+   }
+  }
 </style>

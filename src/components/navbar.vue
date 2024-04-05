@@ -35,7 +35,7 @@
 </nav>
     </div> -->
 
-    <nav class="navbar fixed-top">
+    <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img id="Logo" src="https://i.ibb.co/Z2N7ShV/New-Logo.png"></a>
           <h1 id="navTitle" class="navHead active">Tauha-Hoosain-Shaik</h1>
@@ -227,5 +227,28 @@ ul{
   transition:transform 0.3s;
   transform-origin:left;
   transform:scaleX(1);
+}
+
+
+@media screen and (max-width: 300px) {
+  .navHead {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+  }
+
+  .navbar-toggler-icon {
+    font-size: 18px; /* Adjusted font size for smaller screens */
+  }
+
+  .nav-item {
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
+
+  #Logo {
+    width: 60px; /* Adjusted logo size for smaller screens */
+    height: 60px; /* Adjusted logo size for smaller screens */
+  }
+  .container-fluid{
+    width: 250px;
+  }
 }
 </style>

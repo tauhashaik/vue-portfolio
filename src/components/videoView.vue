@@ -2,7 +2,7 @@
 
     <div class="intro-video">
 
-        <video autoplay controls loop src="../assets/3692830_SmokeExplosionLogo_final_746e54d4.mp4" type="mp4/video">
+        <video autoplay muted loop src="../assets/3692830_SmokeExplosionLogo_final_746e54d4.mp4" type="mp4/video">
             <!-- <source src="../assets/3692830_SmokeExplosionLogo_final_746e54d4.mp4" type="mp4/video"> -->
         </video>
   </div>

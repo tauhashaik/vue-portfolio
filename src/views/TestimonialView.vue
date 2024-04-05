@@ -305,4 +305,49 @@ export default {
   #Labels{
     text-align: center;
   }
+  
+  @media only screen and (max-width: 1080px) {
+    #Body{
+      height: 150vh;
+    }
+  }
+  
+  @media only screen and (max-width: 720px) {
+    
+    #Body {
+      height: 430vh;
+    }
+    
+    #Labels {
+      font-size: 40px;
+    }
+    
+    .col {
+      width: 100%; 
+    }
+    
+    #Slogo {
+      width: 200px; 
+      height: 120px;
+    }
+  }
+  
+@media only screen and (max-width: 300px) {
+#Body {
+   height: 430vh;
+  }
+
+#Labels {
+  font-size: 30px;
+}
+
+.col {
+  width: 100%;
+}
+
+#Slogo {
+  width: 150px;
+  height: 90px;
+}
+}
 </style>

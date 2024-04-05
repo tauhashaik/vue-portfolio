@@ -1,110 +1,112 @@
 <template>
-  
   <body id="Body">
-    
     <videoView v-if="showIntro"></videoView>
 
+    <div v-if="!showIntro">
       <div data-aos="slide-up, slide-down" id="INTRO" class="intro">
         <div class="container">
           <!-- <img id="j" class="img-fluid" src="https://i.postimg.cc/LsHjr3Ph/Profile-Pic.jpg" alt=""> -->
         </div>
 
-        
-         <center>
-              <h2 id="Labels">
-                <span style="--index: 0">W</span>
-                <span style="--index: 1">E</span>
-                <span style="--index: 2">L</span>
-                <span style="--index: 3">C</span>
-                <span style="--index: 4">O</span>
-                <span style="--index: 5">M</span>
-                <span style="--index: 6">E</span>
-                <span style="--index: 7">!</span>
-              </h2>
-         </center> 
-          
-
-       
+        <center>
+          <h2 id="Labels">
+            <span style="--index: 0">W</span>
+            <span style="--index: 1">E</span>
+            <span style="--index: 2">L</span>
+            <span style="--index: 3">C</span>
+            <span style="--index: 4">O</span>
+            <span style="--index: 5">M</span>
+            <span style="--index: 6">E</span>
+            <span style="--index: 7">!</span>
+          </h2>
+        </center>
 
         <div data-aos="fade-up">
-           <h3>I AM AN ASPIRING FULL STACK DEVELOPER</h3>
-        <div >
+          <h3>I AM AN ASPIRING FULL STACK DEVELOPER</h3>
+          <div>
 
-        <div data-aos="fade-up">
-         
-          <center>
-            <div >
-              <a id="buttons" @click="scrollToProjects" class="fancy">
-                <span class="top-key"></span>
-                <span class="text">Projects</span>
-                <span class="bottom-key-1"></span>
-                <span class="bottom-key-2"></span>
-              </a>
+            <div data-aos="fade-up">
 
-              <a id="buttons" @click="scrollToContact" class="fancy">
-                <span class="top-key"></span>
-                <span class="text">CONTACT</span>
-                <span class="bottom-key-1"></span>
-                <span class="bottom-key-2"></span>
-              </a>
+              <center>
+                <div>
+                  <a id="buttons" @click="scrollToProjects" class="fancy">
+                    <span class="top-key"></span>
+                    <span class="text">Projects</span>
+                    <span class="bottom-key-1"></span>
+                    <span class="bottom-key-2"></span>
+                  </a>
+
+                  <a id="buttons" @click="scrollToContact" class="fancy">
+                    <span class="top-key"></span>
+                    <span class="text">CONTACT</span>
+                    <span class="bottom-key-1"></span>
+                    <span class="bottom-key-2"></span>
+                  </a>
+                </div>
+              </center>
+
+
+
+              <div data-aos="fade-up" class="icon-container">
+
+                <a href="linkedin" target="_blank">
+                  <i class="fa-brands fa-linkedin-in fa-beat fa-2xl" style="color: black;"></i>
+                </a>
+
+                <a href="https://github.com/tauhashaik" target="_blank">
+                  <i class="fa-brands fa-github fa-beat fa-2xl" style="color: black;"></i>
+                </a>
+
+              </div>
             </div>
-          </center>
-          
-           
-        
-            
-
-          <div data-aos="fade-up" class="icon-container">
-            
-            <a href="linkedin" target="_blank">
-              <i class="fa-brands fa-linkedin-in fa-beat fa-2xl" style="color: grey;"></i>
-            </a>
-
-            <a href="https://github.com/tauhashaik" target="_blank" >
-              <i class="fa-brands fa-github fa-beat fa-2xl" style="color: grey;"></i>
-            </a>
-            
-          </div>   
-        </div>
           </div>
         </div>
-        
+
       </div>
+    </div>
   </body>
 
 </template>
-<script>
-import aos from 'aos'
-import videoView from '../components/videoView.vue'
-export default {
-components:{
-  videoView
-},
 
-data(){
-  return{
-    showIntro: true
-  };
-},
-  methods:{
-    scrollToContact(){
-      document.getElementById("Testimonial").scrollIntoView({behaviour: 'smooth'});
+<script>
+import aos from 'aos';
+import videoView from '../components/videoView.vue';
+
+export default {
+  components: {
+    videoView
+  },
+  data() {
+    return {
+      showIntro: true,
+      showHomepage: false
+    };
+  },
+  methods: {
+    loadHomepage() {
+      aos.init({
+        duration: 1300,
+        once: false
+      });
+      this.showHomepage = true;
     },
-    scrollToProjects(){
-      document.getElementById("SKILLS").scrollIntoView({behaviour: 'smooth'});
+    scrollToContact() {
+      document.getElementById("Testimonial").scrollIntoView({ behavior: 'smooth' });
+    },
+    scrollToProjects() {
+      document.getElementById("SKILLS").scrollIntoView({ behavior: 'smooth' });
     }
   },
-
-  mounted(){
+  mounted() {
     aos.init({
-      duration:1300, 
+      duration: 1300,
       once: false
-    }),
-    setTimeout(()=>{
+    });
+    setTimeout(() => {
       this.showIntro = false;
-    }, 15000)
+    }, 11000);
   }
-}
+};
 </script>
 <style scoped>
 
@@ -366,7 +368,7 @@ h2 span {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 80vh;
 }
 
 .icon-container {
@@ -386,22 +388,53 @@ h2 span {
   padding-top: 100px !important;
 }
 
-
-@media only screen and (max-width: 300px) {
-.responsive-container {
-    font-size: 14px;
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 720px) {
-  .responsive-container {
-    font-size: 16px;
+@media only screen and (max-width: 1080px) {
+  #Body{
+    height: 100vh;
   }
 }
 
 @media only screen and (min-width: 720px) {
-  .responsive-container {
-    font-size: 18px;
+
+  body{
+    height: 200vh;
+  }
+
+}
+
+
+@media only screen and (min-width: 300px) {
+  #INTRO.intro {
+    padding: 20px;
+  }
+
+  body{
+    height: 200vh;
+  }
+
+  #Labels {
+    font-size: 30px; 
+    letter-spacing: 5px; 
+  }
+
+  h3 {
+    font-size: 20px; 
+    margin-top: 30px;
+  }
+
+  .fancy {
+    font-size: 12px; 
+    padding: 0.75em 1em; 
+    margin: 10px 0;
+  }
+
+  .icon-container {
+    flex-direction: row; 
+    margin-top: 10px; 
+  }
+
+  #buttons{
+    margin:10px
   }
 }
 </style>

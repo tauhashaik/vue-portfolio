@@ -101,7 +101,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 133vh !important;
+  height: 133vh;
 }
 
 
@@ -197,10 +197,36 @@ export default {
 }
     
 
+
+@media only screen and (max-width: 1080px) {
+  #Body{
+    height: 130vh;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  body{
+    height: 230vh !important;
+  }
+  
+  #Labels {
+    font-size: 40px;
+  }
+  
+  .col {
+    width: 100%; 
+  }
+
+  #Slogo {
+    width: 200px; 
+    height: 120px;
+  }
+}
+
 @media only screen and (max-width: 300px) {
   #Body {
-    height: 100vh !important;
-  }
+     height: 210vh;
+    }
 
   #Labels {
     font-size: 30px;
@@ -213,21 +239,6 @@ export default {
   #Slogo {
     width: 150px;
     height: 90px;
-  }
-}
-
-@media only screen and (max-width: 720px) {
-  #Labels {
-    font-size: 40px;
-  }
-
-  .col {
-    width: 100%; 
-  }
-
-  #Slogo {
-    width: 200px; 
-    height: 120px;
   }
 }
 </style>

@@ -1,13 +1,16 @@
 <template>
- <navbar/>
-  <HomeView/>
- <AboutView/>
- <ResumeView/>
- <SkillsView/>
- <ProjectsView/>
- <TestimonialView/>
- <ContactView/>
+  <body>
+    <navbar/>
+    <HomeView/>
+    <AboutView/>
+    <ResumeView/>
+    <SkillsView/>
+    <ProjectsView/>
+    <TestimonialView/>
+    <ContactView/>
  <!-- <router-view/> -->
+  </body>
+ 
  <footer/>
  
 </template>
@@ -46,5 +49,12 @@ export default{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 300px){
+  body{
+    width: 100%;
+  }
 }
 </style>

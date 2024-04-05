@@ -213,9 +213,28 @@ export default {
                 0 0 2px #03e9f4;
   } */
   
+  @media only screen and (max-width: 1080px) {
+    #Body {
+      height: 150vh;
+    }
+
+    #j {
+      width: 250px;
+      height: 300px;
+    }
+
+    #abth3 {
+      font-size: 2em;
+    }
+
+    #abtP {
+      font-size: 16px;
+    }
+  }
+
   @media only screen and (max-width: 720px) {
     #Body {
-      background-size: contain;
+      height: 250vh;
     }
 
     #j {
@@ -237,13 +256,17 @@ export default {
   }
 
   @media only screen and (max-width: 300px) {
+
+    #Body {
+     height: 240vh;
+    }
     #Labels {
       font-size: 30px;
       letter-spacing: 5px;
     }
 
     #abth3 {
-      font-size: 1.2em;
+      font-size: 1.6em;
     }
 
     #abtP {
