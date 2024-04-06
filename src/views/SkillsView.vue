@@ -223,6 +223,133 @@ export default {
   }
 }
 
+@media only screen and (max-width: 430px) {
+  #Body {
+     height: 210vh;
+    }
+
+  #Labels {
+    font-size: 30px;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  #Slogo {
+    width: 150px;
+    height: 90px;
+  }
+}
+@media only screen and (max-width: 412px) {
+  #Body {
+     height: 210vh;
+    }
+
+  #Labels {
+    font-size: 30px;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  #Slogo {
+    width: 150px;
+    height: 90px;
+  }
+}
+@media only screen and (max-width: 393px) {
+  #Body {
+     height: 210vh;
+    }
+
+  #Labels {
+    font-size: 30px;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  #Slogo {
+    width: 150px;
+    height: 90px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #Body {
+     height: 210vh;
+    }
+
+  #Labels {
+    font-size: 30px;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  #Slogo {
+    width: 150px;
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #Body {
+     height: 210vh;
+    }
+
+  #Labels {
+    font-size: 30px;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  #Slogo {
+    width: 150px;
+    height: 90px;
+  }
+}
+
 @media only screen and (max-width: 300px) {
   #Body {
      height: 210vh;
@@ -230,6 +357,13 @@ export default {
 
   #Labels {
     font-size: 30px;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
   }
 
   .col {

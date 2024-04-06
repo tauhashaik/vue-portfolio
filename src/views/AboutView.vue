@@ -254,8 +254,8 @@ export default {
       font-size: 14px;
     }
   }
-
-  @media only screen and (max-width: 300px) {
+  
+  @media only screen and (max-width: 430px) {
 
     #Body {
      height: 240vh;
@@ -272,5 +272,139 @@ export default {
     #abtP {
       font-size: 12px;
     }
+
+    [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
   }
+  }
+  @media only screen and (max-width: 412px) {
+
+    #Body {
+     height: 240vh;
+    }
+    #Labels {
+      font-size: 30px;
+      letter-spacing: 5px;
+    }
+
+    #abth3 {
+      font-size: 1.6em;
+    }
+
+    #abtP {
+      font-size: 12px;
+    }
+
+    [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  }
+  @media only screen and (max-width: 393px) {
+
+    #Body {
+     height: 240vh;
+    }
+    #Labels {
+      font-size: 30px;
+      letter-spacing: 5px;
+    }
+
+    #abth3 {
+      font-size: 1.6em;
+    }
+
+    #abtP {
+      font-size: 12px;
+    }
+
+    [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  }
+  @media only screen and (max-width: 375px) {
+
+    #Body {
+     height: 240vh;
+    }
+    #Labels {
+      font-size: 30px;
+      letter-spacing: 5px;
+    }
+
+    #abth3 {
+      font-size: 1.6em;
+    }
+
+    #abtP {
+      font-size: 12px;
+    }
+
+    [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  }
+  @media only screen and (max-width: 360px) {
+
+    #Body {
+     height: 240vh;
+    }
+    #Labels {
+      font-size: 30px;
+      letter-spacing: 5px;
+    }
+
+    #abth3 {
+      font-size: 1.6em;
+    }
+
+    #abtP {
+      font-size: 12px;
+    }
+
+    [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  }
+
+  @media only screen and (max-width: 300px) {
+    
+    #Body {
+     height: 240vh;
+    }
+    #Labels {
+      font-size: 30px;
+      letter-spacing: 5px;
+    }
+    
+    #abth3 {
+      font-size: 1.6em;
+    }
+    
+    #abtP {
+      font-size: 12px;
+    }
+    
+    [data-aos] {
+      opacity: 1 !important;
+      visibility: visible !important;
+      transition: none !important;
+      transform: none !important;
+  }
+  }
+  
 </style>

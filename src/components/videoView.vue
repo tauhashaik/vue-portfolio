@@ -29,5 +29,28 @@ video {
   height: 100%;
   object-fit: cover;
 }
-    
+
+@media only screen and (max-width: 360px) {
+  .intro-video {
+    width: 400px;
+    height: 100vh;
+    /* object-fit: scale-down; */
+  }
+  video {
+    width: 100%;
+    height: 100vh;
+    object-fit:fill;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .intro-video {
+    width: 300px;
+    height: 100vh;
+  }
+  video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+}
 </style>

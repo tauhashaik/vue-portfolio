@@ -98,7 +98,7 @@
                     </div>
                 <div class="card-details">
               <h2>{{ Testimonial.Testimonial }}</h2>
-              <p>{{ Testimonial.Description }}</p>
+              <p id="text">{{ Testimonial.Description }}</p>
             </div>
           </div>
         </div>
@@ -312,6 +312,29 @@ export default {
     }
   }
   
+  @media only screen and (max-width: 884px) {
+    
+    #Body {
+      height: 100vh !important;
+    }
+    
+    #Labels {
+      font-size: 40px;
+    }
+
+    #text{
+      margin-right: 20px;
+    }
+    
+    .col {
+      width: 100%; 
+    }
+    
+    #Slogo {
+      width: 200px; 
+      height: 120px;
+    }
+  }
   @media only screen and (max-width: 720px) {
     
     #Body {
@@ -332,6 +355,153 @@ export default {
     }
   }
   
+@media only screen and (max-width: 430px) {
+#Body {
+   height: 400vh !important;
+  }
+
+#Labels {
+  font-size: 23px;
+}
+
+.col {
+  width: 100%;
+}
+
+#Slogo {
+  width: 150px;
+  height: 90px;
+}
+
+.card{
+  width:390px !important
+}
+
+[data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+@media only screen and (max-width: 412px) {
+#Body {
+   height: 400vh !important;
+  }
+
+#Labels {
+  font-size: 23px;
+}
+
+.col {
+  width: 100%;
+}
+
+#Slogo {
+  width: 150px;
+  height: 90px;
+}
+
+.card{
+  width:390px !important
+}
+
+[data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+@media only screen and (max-width: 393px) {
+#Body {
+   height: 400vh !important;
+  }
+
+#Labels {
+  font-size: 23px;
+}
+
+.col {
+  width: 100%;
+}
+
+#Slogo {
+  width: 150px;
+  height: 90px;
+}
+
+.card{
+  width:390px !important
+}
+
+[data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+#Body {
+   height: 400vh !important;
+  }
+
+#Labels {
+  font-size: 23px;
+}
+
+.col {
+  width: 100%;
+}
+
+#Slogo {
+  width: 150px;
+  height: 90px;
+}
+
+.card{
+  width:390px !important
+}
+
+[data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+#Body {
+   height: 400vh !important;
+  }
+
+#Labels {
+  font-size: 23px;
+}
+
+.col {
+  width: 100%;
+}
+
+#Slogo {
+  width: 150px;
+  height: 90px;
+}
+
+.card{
+  width:390px !important
+}
+
+[data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
 @media only screen and (max-width: 300px) {
 #Body {
    height: 430vh;
@@ -349,5 +519,16 @@ export default {
   width: 150px;
   height: 90px;
 }
+
+.card{
+  width:390px !important
+}
+
+[data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
 }
 </style>

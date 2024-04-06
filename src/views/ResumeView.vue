@@ -345,6 +345,138 @@ p{
   }
 }
 
+@media only screen and (max-width: 430px) {
+
+
+  #Body {
+     height: 200vh;
+    }
+
+  #Labels {
+    font-size: 30px; 
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  #content{
+  margin-left: 0;
+}
+
+#content2{
+  margin-left: 0 ;
+}
+}
+@media only screen and (max-width: 412px) {
+
+
+  #Body {
+     height: 200vh;
+    }
+
+  #Labels {
+    font-size: 30px; 
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  #content{
+  margin-left: 0;
+}
+
+#content2{
+  margin-left: 0 ;
+}
+}
+@media only screen and (max-width: 393px) {
+
+
+  #Body {
+     height: 200vh;
+    }
+
+  #Labels {
+    font-size: 30px; 
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  #content{
+  margin-left: 0;
+}
+
+#content2{
+  margin-left: 0 ;
+}
+}
+@media only screen and (max-width: 375px) {
+
+
+  #Body {
+     height: 200vh;
+    }
+
+  #Labels {
+    font-size: 30px; 
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  #content{
+  margin-left: 0;
+}
+
+#content2{
+  margin-left: 0 ;
+}
+}
+
+@media only screen and (max-width: 360px) {
+
+
+  #Body {
+     height: 200vh;
+    }
+
+  #Labels {
+    font-size: 30px; 
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  #content{
+  margin-left: 0;
+}
+
+#content2{
+  margin-left: 0 ;
+}
+}
+
 @media only screen and (max-width: 300px) {
 
 
@@ -355,12 +487,20 @@ p{
   #Labels {
     font-size: 30px; 
   }
+
+  [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
   #content{
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 #content2{
-  margin-left: 0px ;
+  margin-left: 0 ;
 }
 }
 </style>

@@ -461,6 +461,13 @@ p{
   }
 }
 
+@media only screen and (max-width: 884px) {
+
+  #Body{
+    height:300vh !important;
+  }
+
+}
 @media only screen and (max-width: 720px) {
 
   #Body{
@@ -469,6 +476,143 @@ p{
 
 }
 
+@media only screen and (max-width: 430px) {
+
+  #Body {
+     height: 420vh !important;
+    }
+   #content{
+    width: 300px
+   }
+   #links{
+    margin: 10px;
+   }
+
+   #Labels {
+  font-size: 38px;
+}
+
+   #projP{
+    width: 210px
+   }
+
+   [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  }
+@media only screen and (max-width: 412px) {
+
+  #Body {
+     height: 420vh !important;
+    }
+   #content{
+    width: 300px
+   }
+   #links{
+    margin: 10px;
+   }
+
+   #Labels {
+  font-size: 38px;
+}
+
+   #projP{
+    width: 210px
+   }
+
+   [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  }
+@media only screen and (max-width: 393px) {
+
+  #Body {
+     height: 420vh !important;
+    }
+   #content{
+    width: 300px
+   }
+   #links{
+    margin: 10px;
+   }
+
+   #Labels {
+  font-size: 38px;
+}
+
+   #projP{
+    width: 210px
+   }
+
+   [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  }
+@media only screen and (max-width: 375px) {
+
+  #Body {
+     height: 420vh !important;
+    }
+   #content{
+    width: 300px
+   }
+   #links{
+    margin: 10px;
+   }
+
+   #Labels {
+  font-size: 38px;
+}
+
+   #projP{
+    width: 210px
+   }
+
+   [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  }
+
+@media only screen and (max-width: 360px) {
+
+  #Body {
+     height: 420vh !important;
+    }
+   #content{
+    width: 300px
+   }
+   #links{
+    margin: 10px;
+   }
+
+   #Labels {
+  font-size: 38px;
+}
+
+   #projP{
+    width: 210px
+   }
+
+   [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  }
+  
 @media only screen and (max-width: 300px) {
 
   #Body {
@@ -483,5 +627,12 @@ p{
    #projP{
     width: 210px
    }
+
+   [data-aos] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    transform: none !important;
+  }
   }
 </style>
