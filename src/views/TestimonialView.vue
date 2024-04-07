@@ -145,6 +145,7 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   height: 143vh;
+  overflow: hidden;
 }
 
 .containerT,.containerM{

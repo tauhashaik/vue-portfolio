@@ -369,6 +369,7 @@ h2 span {
   background-size: cover;
   background-attachment: fixed;
   height: 80vh;
+  overflow: hidden;
 }
 
 .icon-container {

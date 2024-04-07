@@ -252,7 +252,7 @@ p{
   background: #fff;
   border-radius: 8px;
   transform: skewX(15deg);
-  transition: 0.5s ease;
+  transition: 0.9s ease;
 }
 
 .container .box::after
@@ -266,7 +266,7 @@ p{
   background: #fff;
   border-radius: 8px;
   transform: skewX(15deg);
-  transition: 0.5s ease;
+  transition: 0.9s ease;
   filter: blur(30px);
 }
 
@@ -362,7 +362,7 @@ p{
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.5s ease;
   animation: animate 2s ease-in-out infinite;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
   animation-delay: -1s;

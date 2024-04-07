@@ -102,6 +102,7 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   height: 133vh;
+  overflow: hidden;
 }
 
 

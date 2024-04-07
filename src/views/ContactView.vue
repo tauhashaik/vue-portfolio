@@ -159,6 +159,7 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   height: 115vh;
+  overflow: hidden;
 }
 
 form {

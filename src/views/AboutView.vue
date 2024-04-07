@@ -62,6 +62,7 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+  overflow: hidden;
 }
 
  #j{
