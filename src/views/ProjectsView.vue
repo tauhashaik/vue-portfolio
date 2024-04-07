@@ -374,7 +374,7 @@ p{
   right: 50px;
   width: 100px;
   height: 100px;
-  opacity: 1;
+  opacity: 0.6;
 }
 
 @keyframes animate
@@ -445,7 +445,7 @@ p{
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
 }
 #links{
-  margin: 20px;
+  margin: 15px;
 }
 
 #projP{
