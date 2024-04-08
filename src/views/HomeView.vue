@@ -126,9 +126,9 @@ export default {
 #Labels {
     list-style: none;
     color: black;
-    /* -webkit-text-stroke: 1px grey; */
+    -webkit-text-stroke: 1px grey;
     /* text-stroke: 1px grey; */
-    font-size: 80px !important;
+    font-size: 70px !important;
     font-weight: bold;
     letter-spacing: 10px;
     font-family: "Audiowide";
