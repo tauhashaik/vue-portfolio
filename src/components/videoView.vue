@@ -30,11 +30,59 @@ video {
   object-fit: cover;
 }
 
+@media only screen and (max-width: 430px) {
+  .intro-video {
+    width: 400px;
+    height: 100vh;
+    object-fit: cover;
+  }
+  video {
+    width: 100%;
+    height: 100vh;
+    object-fit:fill;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .intro-video {
+    width: 450px;
+    height: 90vh;
+    object-fit: cover;
+  }
+  video {
+    width: 100%;
+    height: 100vh;
+    object-fit:fill;
+  }
+}
+@media only screen and (max-width: 393px) {
+  .intro-video {
+    width: 400px;
+    height: 100vh;
+    object-fit: cover;
+  }
+  video {
+    width: 100%;
+    height: 100vh;
+    object-fit:fill;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .intro-video {
+    width: 400px;
+    height: 100vh;
+    object-fit: cover;
+  }
+  video {
+    width: 100%;
+    height: 100vh;
+    object-fit:fill;
+  }
+}
 @media only screen and (max-width: 360px) {
   .intro-video {
     width: 400px;
     height: 100vh;
-    /* object-fit: scale-down; */
+    object-fit: cover;
   }
   video {
     width: 100%;

@@ -403,6 +403,43 @@ h2 span {
 
 }
 
+@media only screen and (min-width: 412px) {
+  #Labels {
+    list-style: none;
+    color: black;
+    -webkit-text-stroke: 1px grey;
+    /* text-stroke: 1px grey; */
+    font-size: 50px !important;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-family: "Audiowide";
+  }
+}
+@media only screen and (min-width: 375px) {
+  #Labels {
+    list-style: none;
+    color: black;
+    -webkit-text-stroke: 1px grey;
+    /* text-stroke: 1px grey; */
+    font-size: 50px !important;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-family: "Audiowide";
+  }
+}
+@media only screen and (min-width: 360px) {
+  #Labels {
+    list-style: none;
+    color: black;
+    -webkit-text-stroke: 1px grey;
+    /* text-stroke: 1px grey; */
+    font-size: 45px !important;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-family: "Audiowide";
+  }
+}
+
 
 @media only screen and (min-width: 300px) {
   #INTRO.intro {
