@@ -106,12 +106,16 @@
     </li>
 </ul>
 </div>
+    <button @click="downloadCV">
+      Download CV
+    </button>
 
     </div>
 </div>
 </div>
 </div>
         </div>
+
 
 
 
@@ -123,6 +127,13 @@
 import spinner from '@/components/spinner.vue'
 import aos from 'aos'
 export default {
+
+  methods: {
+    downloadCV(){
+      let cvUrl ='https://drive.google.com/file/d/1IcZX5yt11nR6UGQz7nOFvd8tL_Yv6Q_I/view?usp=drive_link';
+      window.open(cvUrl, '_blank');
+    }
+  },
 
   components:{
       spinner
@@ -323,6 +334,41 @@ p{
                 0 0 5px #000000,
                 0 0 5px #000000,
                 0 0 5px #000000;
+}
+
+button {
+  color: white;
+  text-shadow:0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000;
+  font-family: "Audiowide";
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 120px;
+}
+
+button::before {
+  margin-left: auto;
+}
+
+button::after, button::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #ffffff;
+  /* background-color: grey transparent; */
+  /* backdrop-filter: blur(5.3px); */
+  display: block;
+  transition: 0.5s;
+}
+
+button:hover::after, button:hover::before {
+  width: 100%;
 }
 
 @media only screen and (max-width: 1080px) {
