@@ -18,16 +18,15 @@
         <div data-aos="slide-right" class="container">
           <div class="row text-center">
             <div class="col-md-5 order-first">
-              <img id="j" src="https://i.postimg.cc/LsHjr3Ph/Profile-Pic.jpg" class="img-fluid rounded-5 my-auto mb-5" alt="">
+              <img id="j" src="https://i.postimg.cc/0ycdMb3P/Tauha-Profile-Pic.jpg" class="img-fluid rounded-5 my-auto mb-5" alt="">
             </div>
             <div data-aos="slide-left" id="abtBox" class="col-md-7 col-sm-12 my-auto text-center text-lg-start">
               <h3 id="abth3">Hi, I am Tauha Hoosain Shaik</h3>
                 <p id="abtP" class="fs-5">
-                I am a hardworking individual that strives for constant improvement through diligence and the drive to learn.
-                Patience and perseverence is a large part of my work ethic as well as the ability to self reflect to progress toward success.
-                I am conscience of the importance in human relations and the need for emotional intellegence, which is why I pride myself
-                on being well equipped to handle the communications aspect. This has given me the ability to navigate and facilitate working
-                with groups of people and assume leadership roles when necessary.
+                  Dynamic and results-oriented Individual with a passion for web development and a keen interest in coding diverse applications. Leveraging a strong background in pragmatic and analytical thinking, I meticulously assess details and information to craft effective solutions. With a commanding yet approachable presence, I excel in leadership by listening attentively, evaluating options, and delegating responsibilities to optimise team performance and achieve desired outcomes.
+
+                  Beyond the professional realm, I'm an avid sports enthusiast, particularly enjoying football and rugby, while finding solace and challenge in hiking adventures. Indoors, I indulge in gaming, cooking, and reading.
+                  While I maintain a friendly and jovial demeanor, I prioritise professionalism and excellence in my work, balancing a serious approach with a personable touch.
               </p>
             </div>
             
@@ -66,10 +65,11 @@ export default {
 }
 
  #j{
-  width: 350px;
+  width: 550px;
   height: 400px;
   /* display: flex; */
   justify-content: center;
+  margin-top: 50px !important;
 }
 
 #Labels {
@@ -193,21 +193,22 @@ export default {
 
   #abtP{
     /* color: white; */
-    border: solid black 2px;
+    border: solid rgb(0, 0, 0) 2px;
     border-radius: 5px;
-    /* background-color: grey transparent; */
+    background-color: grey transparent;
+    backdrop-filter: blur(5.3px);
     /* text-shadow: grey; */
     font-weight: bolder;
     font-family: "Audiowide";
     transition: 0.5s;
-    color: black !important;
-    text-shadow:0 0 2px #03e9f4,
-                0 0 2px #03e9f4,
-                0 0 2px #03e9f4,
-                0 0 2px #03e9f4;
+    color: rgb(255, 255, 255) !important;
+    text-shadow:0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000,
+                0 0 5px #000000;
   }
   /* #abtP:hover{
-    color:black;
+    color:black;  
     text-shadow:0 0 2px #03e9f4,
                 0 0 2px #03e9f4,
                 0 0 2px #03e9f4,
