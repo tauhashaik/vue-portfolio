@@ -93,7 +93,7 @@ export default {
     padding-top: 50px;
     list-style: none;
     color: black;
-    /* -webkit-text-stroke: 1px grey; */
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
     /* text-stroke: 1px grey; */
     font-size: 50px;
     font-weight: bold;

@@ -126,7 +126,7 @@ export default {
 #Labels {
     list-style: none;
     color: black;
-    -webkit-text-stroke: 1px grey;
+    -webkit-text-stroke: 1px rgb(255, 255, 255)!important;
     /* text-stroke: 1px grey; */
     font-size: 70px !important;
     font-weight: bold;
