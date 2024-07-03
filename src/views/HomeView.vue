@@ -451,7 +451,7 @@ h2 span {
   }
 
   #Labels {
-    font-size: 30px; 
+    font-size: 30px !important; 
     letter-spacing: 5px; 
   }
 
